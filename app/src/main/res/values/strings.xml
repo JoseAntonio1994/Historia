@@ -1549,6 +1549,12 @@
         dieron origen al tradicional traje de la china poblana.
     </string>
 
+
+    <!-- La independencia de México   -->
+    <string name="anteindependencia">
+
+    </string>
+
     <string name="title_activity_tema">TemaActivity</string>
 
     <string name="action_settings">Settings</string>
