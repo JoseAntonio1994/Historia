@@ -1,0 +1,1559 @@
+<resources>
+    <string name="app_name">Historia de Mexico</string>
+    <string name="rutas_poblamiento">Rutas del poblamiento de América</string>
+
+    <!-- Epoca prehispanica. -->
+    <string name="migrantes">
+        Hace miles de años, la Tierra experimentó una serie de cambios climáticos conocidos como glaciaciones;
+        durante éstas, las temperaturas descendieron tanto que se produjo un enfriamiento del planeta y, como
+        resultado, aumentaron las partes de tierra que estaban cubiertas por hielo. Las glaciaciones provocaron
+        cambios en las plantas y los animales, en el nivel del agua de los mares y, desde luego, en la vida humana.
+        Durante el último periodo de glaciaciones, el nivel del mar bajó a tal punto que las áreas de tierra del
+        estrecho de Bering, que ahora están sumergidas en el mar, quedaron en la superfi-cie. Con ello se formó
+        un puente, el cual permitió que grupos de seres humanos y animales cruzaran de Asia a América. Se cree que
+        los primeros pobladores de América cruzaron el estrecho de Bering siguiendo animales para cazarlos.
+        Al trasladarse del actual territorio de Siberia (en Rusia) hacia Alaska (en Estados Unidos), el ambiente
+        era muy frío; pero conforme avanzaron rumbo al sur del continente, la temperatura era más cá-lida, además
+        la flora y la fauna eran distintas y más abundantes.Pasaron miles de años para que el continente americano
+        se poblara completamente. Una de las razones fue que los grupos humanos eran nómadas; al llegar a una zona
+        con abundantes recursos naturales, la habitaban hasta que éstos se agotaban y entonces partían a otro sitio
+        en busca de nuevos recursos.
+    </string>
+    <string name="grupos">
+        Se sabe poco acerca de los primeros pobladores del actual
+        territorio mexicano, ya que para investigarlos sólo se cuenta
+        con restos de viviendas, de animales y de seres humanos
+        (cráneos, esqueletos y dientes), algunos utensilios de piedra y
+        hueso, y pinturas rupestres que han servido como fuentes de
+        información.
+        Los principales descubrimientos de los primeros grupos humanos
+        que se han encontrado en el actual territorio mexicano
+        están en El Cedral, San Luis Potosí, en Tepexpan y en Santa Isabel
+        Ixtapan, Estado de México, y en el Peñón de los Baños, Distrito
+        Federal.
+        La información que aportan estos restos materiales permite
+        saber que los pobladores nómadas de aquella época vivían en
+        grupos de menos de cien integrantes; se alimentaban de animales
+        que cazaban y pescaban, así como de plantas y frutos que
+        recolectaban. También se sabe que usaban el fuego.
+        En sus diferentes actividades, estos grupos utilizaban agujas
+        hechas de hueso, navajas, hachas y otros instrumentos tallados
+        en madera y en piedra, así como cuerdas y redes, y se cubrían
+        con pieles de animales.
+    </string>
+    <string name="agricultura">
+        En México, el cultivo del maíz se inició alrededor del año 5000 a. C.
+        Probablemente en un principio las mujeres y los niños aprendieron
+        a identificar las plantas comestibles y comenzaron a cuidarlas.
+        Después, observaron que las semillas se dispersaban a otros
+        lugares a través del viento, transportadas por los pájaros o los
+        insectos, y que donde caían las semillas nacían nuevas plantas;
+        cuando comprendieron este proceso, empezaron a sembrarlas
+        y obtener sus propios alimentos.
+        Para explicar por qué los grupos nómadas de cazadores-recolectores
+        empezaron a practicar la agricultura, los investigadores
+        consideran que en ciertas regiones llegó un momento en el
+        que la población aumentó tanto, que lo recolectado ya no alcanzó
+        para alimentar a todos los integrantes del grupo; entonces
+        buscaron la forma de producir alimentos en mayores cantidades
+        y almacenarlos.
+
+        Gracias a la agricultura y a la domesticación de ciertos animales
+        como el guajolote, los grupos humanos dependieron cada
+        vez menos de la cacería y la recolección.
+        Hoy sabemos por los restos de semillas hallados en Tehuacán,
+        Puebla, que en esta zona se cultivó el maíz, el chile, el aguacate,
+        el amaranto, el frijol y el chayote, y a la par continuaron de manera
+        habitual la caza y la pesca. También surgieron la alfarería y
+        la cestería.
+        A partir de la sedentarización se formaron las primeras aldeas
+        y comenzó el intercambio o trueque de productos. Así se
+        inició el comercio.
+    </string>
+    <string name="aridoamerica">
+        Esta área se caracteriza por tener zonas áridas y semiáridas, así
+        como por la presencia de montañas, mesetas, estepas, desiertos
+        y costas. Su clima es extremoso: muy caluroso durante el día y
+        muy frío durante la noche.
+        Los pobladores de Aridoamérica tuvieron que adaptarse a un
+        medio especialmente difícil de habitar. Debido a las condiciones
+        ambientales poco favorables para la agricultura, las principales
+        actividades fueron la recolección, la caza y la pesca.
+        En las cuevas de La Paila y La Candelaria, en Coahuila, se han
+        encontrado evidencias de que los aridoamericanos poseían conocimientos
+        complejos, pues eran hábiles acondicionando cuevas
+        para habitarlas, desarrollaban la alfarería y sepultaban a sus
+        muertos; además, producían diversos objetos, como sandalias,
+        bolsas y redes, que elaboraban con plantas y restos de animales.
+
+        También sabían fabricar armas para cazar, como el arco, la flecha
+        y lanzas con punta de piedra.
+        Poco se sabe acerca de sus prácticas religiosas, pero mediante
+        el estudio de algunos restos materiales es posible concluir
+        que tenían un sistema de creencias complejo, como se puede
+        observar en la gran cantidad de pinturas rupestres descubiertas
+        en las cuevas Boca San Julio y Las Flechas en Baja California Sur.
+        También se ha podido determinar que daban un tratamiento ritual
+        a los cuerpos de sus muertos, como en los localizados en la
+        cueva de La Candelaria, Coahuila.
+    </string>
+    <string name="mesoamerica">
+        Esta área se distingue por tener bosques, selvas, costas y montañas,
+        varios tipos de climas y abundancia de ríos y lagunas en ciertas zonas.
+        Estas condiciones favorecieron el desarrollo de la agricultura y el
+        surgimiento de las primeras ciudades.
+        Entre los años 35 000 y 2 500 a. C., la región de Mesoamérica
+        fue habitada por grupos de cazadores-recolectores, quienes
+        aprovecharon los recursos naturales de algunos lugares para
+        instalarse temporalmente.
+        Entre los años 7 000 y 2 500 a. C., los grupos nómadas comenzaron
+        a vivir en aldeas. En ese periodo empezaron a conformarse
+        los rasgos característicos de Mesoamérica, entre ellos,
+        el más importante fue el cultivo del maíz.
+        A partir del 2 500 a. C. inició el desarrollo de la escritura, las
+        primeras construcciones de carácter religioso, el perfeccionamiento
+        de la cerámica y el comercio a larga distancia.
+    </string>
+    <string name="oasisamerica">
+        Esta área tiene un terreno semiárido y clima caluroso con escasas
+        lluvias, pero cuenta con algunas tierras favorables para
+        la agricultura debido a la presencia de oasis. Fue habitado por
+        grupos de cazadores-recolectores y, posteriormente, surgieron
+        poblaciones sedentarias.
+        Las culturas que poblaron esta área mantuvieron estrecho
+        contacto con los mesoamericanos, de quienes recibieron una
+        importante influencia. De ellos aprendieron a construir sistemas
+        de riego y edificaciones como las destinadas al juego de pelota.
+        También comerciaban de manera constante con turquesas, que
+        eran piedras sumamente valiosas para los mesoamericanos.
+        Los distintos grupos de Oasisamérica tenían creencias muy
+        variadas, pero compartían el culto a divinidades relacionadas
+        con la naturaleza y la fertilidad. Algunas culturas del suroeste
+        de Estados Unidos rendían culto a los kachinas, entidades cuyo
+        aspecto era parecido al del dios mesoamericano Tláloc.
+        Estos seres sobrenaturales se asociaban con la lluvia, la caza
+        y los cultivos, sobre todo eran considerados espíritus que daban
+        vida a todas las criaturas del universo.
+    </string>
+    <string name="pintura_rupeste">
+        En algunas regiones del actual territorio mexicano, como Aguascalientes,
+        Morelos, Guerrero y principalmente Baja California,
+        varios grupos nómadas hicieron pinturas rupestres, llamadas así
+        porque fueron pintadas sobre superficies rocosas. Los colores
+        negro, rojo y ocre los obtenían de minerales y vegetales molidos
+        que mezclaban con grasa animal o resina de los árboles y agua.
+        Para pintar usaban sus propias manos, restos de carbón (como si
+        fueran gises) y pinceles rudimentarios hechos con el pelo de los
+        animales que cazaban.
+        Algunas investigaciones sugieren que esas imágenes tenían
+        una función ritual: comunicar a los humanos con sus antepasados
+        y con los espíritus del mundo sobrenatural. Otras, en cambio,
+        plantean que sólo representan ideas de caza y de guerra, es
+        decir, las actividades cotidianas de esos grupos.
+    </string>
+    <string name="cultivo">
+        La mayor parte de la dieta de los mexicanos se compone de alimentos
+        preparados con maíz, como tortillas, tamales, atole y
+        pozole, entre otros. La domesticación de este cereal fue muy
+        importante porque propició que los grupos nómadas se volvieran
+        sedentarios. El cultivo del maíz fue el sustento de los pueblos
+        mesoamericanos y se convirtió en objeto de culto, como
+        lo demuestra la adoración al dios Centéotl entre los mexicas, o
+        historias como el Popol Vuh, entre los mayas, que narra cómo los
+        dioses crearon la humanidad con masa de maíz.
+    </string>
+    <string name="olmeca">
+        Durante el periodo Preclásico se desarrolló la civilización olmeca,
+        la cual alcanzó su máximo esplendor del año 1200 a. C. al
+        400 a. C., aproximadamente. Habitaron en las costas del Golfo de
+        México, al sureste de lo que actualmente es Veracruz y al occidente
+        de Tabasco.
+        El estudio de los restos de sus creaciones hace pensar
+        que fue la cultura más influyente en toda Mesoamérica
+        durante este periodo, pues fueron los
+        primeros que construyeron grandes centros ceremoniales.
+        De hecho, hay objetos o rasgos de la cultura
+        olmeca en distintas zonas; por ejemplo, se han
+        encontrado imágenes de niños-jaguar representados
+        en esculturas, pinturas y cerámica en lugares
+        alejados en toda Mesoamérica.
+        En sitios que hoy podemos visitar como San
+        Lorenzo, La Venta y Tres Zapotes quedan pruebas
+        de que los olmecas dominaban las técnicas
+        de construcción y tenían amplios conocimientos
+        de astronomía. Esto les permitió elaborar
+        el primer calendario de Mesoamérica que, junto
+        con la escritura, heredaron a otras culturas que
+        los perfeccionaron.
+
+        Su sociedad se dividía en grupos; estaba formada
+        por gobernantes-sacerdotes, jugadores
+        de pelota, alfareros, escultores, pintores, agricultores,
+        entre otros.
+        Utilizaban madera y barro para hacer vasijas
+        y figurillas; entre estas últimas destacan algunas
+        pintadas con chapopote conocidas como
+        “caras de niño”, que representaban la deformación
+        del cráneo de los recién nacidos y eran
+        consideradas un símbolo de belleza.
+        Los olmecas también fueron excelentes
+        escultores, prueba de ello son las cabezas colosales
+        de piedra que hoy pueden apreciarse
+        en Tabasco, así como las esculturas de menor
+        tamaño que representan al jaguar, animal que
+        consideraban sagrado.
+        Se piensa que la cultura olmeca desapareció
+        debido a rivalidades y enfrentamientos violentos
+        con otros pueblos. Estos hechos llevaron a
+        la destrucción de las ciudades; así, poco a poco
+        los olmecas vivieron un proceso de migración
+        hacia diferentes lugares que culminaría con el
+        abandono total de sus ciudades.
+    </string>
+    <string name="maya">
+        Durante el periodo Clásico, hacia el año 200 d. C., en varias regiones
+        de Mesoamérica se inicia el desarrollo de grandes civilizaciones
+        urbanas. Los centros ceremoniales se multiplicaron, y
+        las artes y las técnicas alcanzaron un esplendor impresionante.
+        En esa época, la organización de la sociedad se volvió más
+        compleja. Junto con los guerreros-sacerdotes se necesitaron
+        funcionarios encargados de impartir justicia y de recaudar tributos;
+        también comerciantes que viajaran largas distancias para
+        intercambiar diversos productos y artesanos especializados que
+        elaboraban objetos de gran belleza.
+        La religión ocupaba el lugar central de la vida y en torno a ella
+        giraban las demás actividades. Adoraban algunos elementos de
+        la naturaleza y los astros, a los cuales asociaban con dioses que
+        vivían en el cielo. Aumentó el número de las deidades y de las
+        ceremonias celebradas en su honor, que con frecuencia incluían
+        los sacrificios humanos.
+        En los asombrosos centros ceremoniales de esta época, trabajaron
+        decenas de miles de hombres durante años para construir
+        pirámides, tumbas y palacios; se ocupaban a los más hábiles
+        artesanos y se utilizaban los materiales más valiosos. Ésta es
+        la época en que floreció la civilización maya.
+
+        Los mayas vivieron al sur de Mesoamérica en
+        los actuales estados de Chiapas, Tabasco, Campeche,
+        Quintana Roo y la península de Yucatán,
+        en México, y en parte de Guatemala, Belice, El Salvador,
+        Honduras, Nicaragua y Costa Rica, en Centroamérica.
+        Alcanzaron su mayor esplendor entre los años 250
+        d. C. y 900 d. C. Gracias al perfeccionamiento técnico y
+        científico hicieron su agricultura más productiva y aprovecharon
+        mejor los recursos naturales. Así, sus poblados
+        crecieron y se transformaron en grandes ciudades,
+        como Tikal, Uaxactún, Palenque, Yaxchilán, entre
+        otras, que dominaban a las poblaciones de menor tamaño
+        establecidas alrededor de ellas.
+
+        Sus ciudades fueron gobernadas por una poderosa
+        clase de guerreros y sacerdotes, que ejercía una fuerte
+        autoridad sobre el resto de la sociedad, como se puede apreciar
+        en las representaciones pintadas y labradas en templos, tumbas
+        y palacios.
+        Las mujeres mayas destacaron en asuntos políticos, ya que
+        en la sucesión de los gobernantes o señores se tomaba en cuenta
+        el linaje de la madre. Muchas veces se hacían alianzas políticas
+        mediante compromisos matrimoniales.
+
+        Los mayas crearon un avanzado sistema de escritura que utilizaban
+        para registrar las hazañas guerreras de los gobernantes,
+        para contar el tiempo y con diversos propósitos religiosos.
+        Fueron excelentes astrónomos; registraron fenómenos como
+        los eclipses o el paso de los cometas a lo largo de muchos siglos.
+        Con esta información, los mayas elaboraron un calendario muy
+        preciso. Para realizar sus cálculos, los astrónomos mayas utilizaban
+        símbolos numéricos para representar las unidades del 1 al
+        4 y los grupos de 5 unidades. Daban un valor a las cifras según
+        su posición y utilizaban el cero, lo que permitía calcular grandes
+        cantidades.
+        Los mayas usaron piedra caliza para elaborar basamentos piramidales
+        (conocidos como pirámides), templos, plataformas,
+        así como juegos de pelota. Las ciudades mayas se construyeron
+        a partir de posiciones astronómicas relacionadas con el movimiento
+        del Sol, la Luna y Venus.
+        Contrario a lo que se pensó por mucho tiempo, los mayas
+        fueron una cultura guerrera, es decir, la guerra entre ciudades
+        fue una actividad continua y con ella se aseguraba el poder
+        de una ciudad sobre otras; además, se capturaban prisioneros
+        para ofrecerlos como sacrificio a los dioses.
+        El comercio fue otra actividad fundamental entre los mayas,
+        la cual les permitió extender su influencia a regiones distantes
+        de Mesoamérica.
+
+        A finales del periodo Clásico, las ciudades mayas fueron abandonadas.
+        Se considera que la destrucción de los bosques, consecuencia
+        de su sistema agrícola, provocó un desastre ecológico,
+        además de que estallaron fuertes luchas internas.
+        Al sucumbir las ciudades del sur, una nueva y esplendorosa
+        etapa de la cultura maya se desarrolló después en el norte de
+        la península de Yucatán, sobre todo en las ciudades de Uxmal,
+        Chichén Itzá y Mayapán.
+    </string>
+    <string name="teotihuacana">
+        Algunos grupos de olmecas que migraron de la zona mesoamericana
+        del Golfo de México se establecieron en el Altiplano Central.
+        Cuando esos grupos se encontraron con los pueblos que
+        habitaban esta región, sus elementos culturales se mezclaron y
+        dieron origen a otras culturas, entre ellas la teotihuacana.
+        Debido a los abundantes recursos naturales que había en la
+        zona, su ubicación geográfica y su constante intercambio comercial,
+        la ciudad de Teotihuacan creció con el tiempo; se convirtió
+        en una ciudad muy poblada, de entre 125 mil a 250 mil habitantes.
+        Logró su mayor esplendor en el periodo Clásico, entre
+        el año 150 d. C. al 750 d. C. Fue muy influyente en la economía,
+        la política, la arquitectura y el arte de toda Mesoamérica.
+        Los teotihuacanos construyeron basamentos piramidales de
+        gran tamaño que se distinguían porque usaban el talud y el tablero.
+        Sus construcciones más importantes fueron las pirámides
+        del Sol y de la Luna, así como la Calzada de los Muertos y
+        el Templo de Quetzalcóatl. También edificaron plataformas en
+        las que se llevaron a cabo ceremonias religiosas y celebraciones
+        populares.
+        Teotihuacan fue una importante ciudad comercial gracias a
+        su abundante producción agrícola (tanto la de temporal como
+        en la que se utilizaban canales de irrigación) y a los yacimientos
+        de obsidiana.
+
+        La dominación de Teotihuacan se extendió a
+        muchas zonas de Mesoamérica. Unas estaban
+        bajo su autoridad directa y otras pagaban tributo.
+        La influencia cultural fue notable y se advierte en
+        las áreas del Golfo de México, Oaxaca y la Región
+        Maya.
+        La sociedad teotihuacana estaba integrada
+        por sacerdotes, guerreros, comerciantes, artesanos
+        y agricultores, entre otros.
+        Los teotihuacanos expresaban sus creencias
+        por medio de la escultura, la cerámica y la pintura
+        mural. Por ejemplo, en las fachadas de los
+        templos representaban a deidades como Tláloc
+        y la Serpiente Emplumada, relacionados con la
+        lluvia y la fertilidad, respectivamente.
+        A finales del periodo Clásico, la ciudad fue
+        saqueada, quemada y destruida. Se desconocen
+        con exactitud las causas de la decadencia
+        de esta cultura, pero algunos investigadores
+        consideran que sucumbió por la sobreexplotación
+        de los recursos naturales, las invasiones de
+        otros pueblos y los conflictos internos.
+    </string>
+    <string name="zapoteca">
+        En los valles del actual estado de Oaxaca se establecieron varios
+        grupos que con el tiempo se unieron y formaron los pueblos
+        zapoteco y mixteco.
+        La cultura zapoteca alcanzó su máximo desarrollo en el periodo
+        Clásico, entre los años 250 d. C. y 900 d. C. Se estableció
+        en una zona natural con abundante agua que propició la agricultura,
+        la producción de cal, sal y arcilla para la alfarería.
+        Entre las principales actividades de los zapotecos estaba el
+        cultivo del maíz. Por ello, tenían sacerdotes encargados del culto
+        al dios de esa planta. También relacionaban los elementos
+        naturales como agua, fuego y viento con sus dioses.
+        Construyeron centros religiosos como la ciudad de Monte
+        Albán en lo alto de una montaña, con edificios que se orientaban
+        conforme a los astros; utilizaron la técnica del talud y el
+        tablero. En esta ciudad edificaron basamentos piramidales, juegos
+        de pelota y un observatorio en forma de punta de flecha,
+        orientado hacia el grupo de estrellas que hoy conocemos como
+        la constelación de Orión.
+        La sociedad se dividía en gobernantes-sacerdotes, comerciantes,
+        guerreros, campesinos y artesanos; estos
+        últimos vivían en barrios y tenían diferentes oficios,
+        como albañiles, pintores, talladores de piedra, alfareros,
+        orfebres o tejedores.
+        Por medio de la guerra, el ejército tomaba prisioneros,
+        recaudaba tributos (alimentos, objetos
+        o vestidos) para satisfacer las necesidades del
+        grupo dominante, y obtenía recursos para la construcción
+        de la ciudad.
+        El pueblo zapoteco también se distinguió por medir los
+        ciclos del Sol, la Luna y de Venus (así pudo elaborar su calendario),
+        crear un sistema de escritura basado en glifos que
+        tallaban en piedra, hueso, concha o que pintaban sobre piel,
+        cerámica o muros.
+    </string>
+    <string name="mixteca">
+        Los mixtecos alcanzaron su máximo esplendor en el periodo
+        Posclásico, del año 900 d. C. al 1521 d. C. Habitaron una
+        amplia región que hoy comprende los estados de Oaxaca,
+        parte de Guerrero y Puebla; ahí se asentaron en las laderas
+        de valles fértiles, lugares cercanos a los ríos.
+        Los mixtecos tallaban figuras, herramientas de obsidiana
+        y cristal de roca; producían cerámica policromada (de varios
+        colores) decorada con motivos geométricos y símbolos,
+        y dominaban la técnica de la orfebrería, elaboraban diversos
+        objetos de oro: anillos, collares y adornos para
+        la nariz, las orejas y el pecho.
+        Plasmaron su escritura en códices, grabados, pinturas,
+        figurillas, monumentos y objetos ornamentales.
+        Desarrollaron una notable tecnología agrícola pues
+        usaron terrazas para sus cultivos; también hicieron intercambios
+        comerciales en la región y en sitios lejanos
+        de Mesoamérica.
+        El juego de pelota fue una actividad frecuente; se vinculaba con
+        el sacrificio humano y con los rituales dedicados a la fertilidad y a
+        las fuerzas de la naturaleza, por lo que tuvo doble función: política
+        y religiosa.
+    </string>
+    <string name="tolteca">
+        El periodo Posclásico se caracterizó por la invasión de pueblos
+        seminómadas provenientes de Aridoamérica a Mesoamérica,
+        que al llegar a esta área se fusionaron con la población existente
+        y asimilaron sus elementos culturales. Fue en esta época cuando
+        se desarrollaron las técnicas para fundir y trabajar metales
+        preciosos como el oro y la plata.
+        Los toltecas alcanzaron su apogeo durante el Posclásico, entre
+        los años 900 d. C. y 1200 d. C. Se establecieron en Tula, en
+        el actual estado de Hidalgo. Dominaron gran parte del centro de
+        México, las costas del Golfo de México, parte del Bajío (Querétaro,
+        Guanajuato, Aguascalientes y Jalisco) y el área del Soconusco,
+        entre lo que hoy es Chiapas y Guatemala.
+        Los toltecas se dedicaban a la agricultura; cultivaban el maguey
+        para producir pulque y elaborar diversos objetos con la fibra
+        de esta planta. Crearon distintas piezas de barro, desde ollas
+        y platos para preparar y servir la comida, hasta tubos de drenaje
+        o cañerías que se utilizaban para hacer correr el agua hacia los
+        terrenos de cultivo.
+        La cultura tolteca tuvo gran influencia en Mesoamérica. Además,
+        mantuvo intercambios comerciales con otras culturas que
+        vivían en tierras lejanas como la maya; para ello, empleaban la
+        semilla del cacao como moneda. Esta costumbre se extendió
+        entre casi todas las culturas mesoamericanas que anteriormente
+        sólo usaban el cacao como una bebida sagrada.
+        A la caída de Tula, un grupo de pobladores de esta ciudad se
+        dirigió a la Región Maya. Esto puede verificarse en Chichén Itzá,
+        sitio ubicado en el actual estado de Yucatán, en donde se observa
+        la similitud de las construcciones, algunas esculturas como el
+        Chac Mool, los atlantes, las serpientes emplumadas y el altar de
+        cráneos o tzompantli.
+    </string>
+    <string name="mexica">
+        Los mexicas se asentaron en la cuenca de México durante el
+        periodo Posclásico. Provenían de un lugar llamado Aztlán, que
+        posiblemente sea mítico, pero que algunos historiadores sitúan
+        en el actual estado de Nayarit.
+        Después de un largo viaje, en 1325, los mexicas llegaron a la
+        zona del lago de Texcoco. Según cuenta la leyenda, encontraron
+        en unos islotes abandonados la señal de que ahí deberían fundar
+        su ciudad México-Tenochtitlan. Sin embargo, esos islotes pertenecían
+        a Azcapotzalco y debieron pagarle tributo.
+        Los mexicas estuvieron por muchos años bajo el dominio del
+        señorío de Azcapotzalco, hasta que en 1428, junto con otros pueblos,
+        se rebelaron en su contra y lograron derrotarlo. Posteriormente, el
+        dominio mexica se extendió por casi toda Mesoamérica, convirtiéndose
+        México-Tenochtitlan en la ciudad más poderosa de la región hasta que cayó
+        vencida por los españoles en 1521. En ciertos lugares ubicados estratégicamente,
+        los mexicas establecieron fortalezas y formaron guarniciones para vigilar los
+        territorios dominados y mantener la seguridad de las rutas comerciales.
+        Los tributos llegaban a Tenochtitlan constantemente: tejidos, artículos preciosos,
+        alimentos, y también cautivos destinados al sacrificio. Esa riqueza convirtió
+        a la capital mexica en una ciudad poderosa. Sus gobernadores o señores no heredaban
+        el trono, como los reyes europeos, sino que eran elegidos de entre los miembros de la
+        familia gobernante. Otros grupos con ciertos privilegios eran los artesanos, los escultores,
+        los médicos, las parteras, los adivinos y los comerciantes, estos últimos servían también
+        como embajadores y espías del Imperio en sus viajes a tierras lejanas.
+        El grupo social más numeroso era el dedicado a la agricultura y a los oficios comunes;
+        trabajaban la tierra en unidades colectivas llamadas calpulli y se quedaban con los
+        productos obtenidos para distribuirlos entre los integrantes de las familias.
+        El estrato social menos numeroso y en la posición más baja era el de los esclavos, personas
+        que tenían deudas o habían cometido delitos. Los mexicas eran profundamente religiosos.
+        Creían que la energía del universo representada por el Sol podía agotarse, por lo que
+        el movimiento de los astros se detendría y el mundo desaparecería, y para evitarlo
+        debían alimentar dicha energía con sacrificios humanos, por lo que le ofrecían el corazón
+        de sus víctimas. Los mexicas tuvieron especial interés en la educación. En sus primeros
+        años los niños eran educados por el padre, y las niñas por la madre; concluida
+        la educación familiar, los hijos de nobles y sacerdotes asistían al Calmecac y
+        los demás acudían al Telpochcalli.
+    </string>
+    <string name="matematicos">
+        Los pobladores de Mesoamérica desarrollaron complejos sistemas
+        de numeración; por ejemplo, en el sistema que usaban
+        los mayas y los zapotecas, los numerales se representaban de
+        tres maneras: en la primera había una base de puntos y barras
+        (el punto equivalía a 1 y la barra a 5), el 0 se representaba
+        con una flor o una concha, y el 20 con el símbolo de la Luna.
+        Las otras dos formas de numeración eran la “variante de cabeza”,
+        en la que se dibujaba el perfil de un personaje, y la “variante
+        de cuerpo entero” que mostraba a un personaje sentado
+        ricamente ataviado y de lado. Estas dos formas de numeración
+        maya son consideradas las más difíciles de descifrar e interpretar.
+        Mediante la observación, los astrónomos mesoamericanos
+        aprendieron a identificar los ciclos de astros como la Luna, el Sol
+        y Venus. Estos conocimientos les permitían llevar el registro de
+        algunos sucesos naturales: eclipses, lluvias de estrellas y el paso
+        de cometas, que consideraban señales de que ocurrirían acontecimientos
+        buenos o malos. Además, el conocimiento astronómico
+        les permitió elaborar calendarios, predecir los cambios de
+        las estaciones y saber cuáles serían los días más largos o más
+        cortos del año.
+    </string>
+    <string name="calendario">
+        Los mesoamericanos usaron los calendarios para medir el tiempo,
+        determinar los ciclos agrícolas y registrar las actividades
+        rituales de sus sacerdotes.
+        Tenían dos calendarios: el solar y el lunar. El primero
+        representaba 365 días, divididos en 18 meses
+        de 20 días, más cinco días adicionales o sobrantes
+        considerados de mala suerte. A este calendario,
+        los mayas lo llamaban haab; los mexicas, xihuitl,
+        y los zapotecas, yza.
+        El calendario lunar representaba 260 días. Era
+        un calendario ritual que se dividía en ciclos de 13
+        números con 20 signos. Los sacerdotes lo utilizaban
+        para determinar las fechas de acontecimientos
+        importantes como sembrar, partir a la guerra, poner
+        nombre a los niños el día de su nacimiento o casarse.
+        Entre los mexicas se le conoció como tonalpohualli y entre
+        los zapotecas como piye. Este calendario es considerado el
+        más antiguo de Mesoamérica.
+        Los dos calendarios coincidían cada 52 años y se iniciaba un
+        nuevo ciclo con la ceremonia del Fuego Nuevo, que simbolizaba
+        la renovación de las fuerzas naturales y la vida.
+    </string>
+    <string name="escritura">
+        La escritura se desarrolló con la cultura olmeca
+        entre los años 1 200 a. C. y 400 a. C. Los sistemas
+        de escritura de los mesoamericanos permitieron
+        preservar y transmitir información acerca
+        de sus gobernantes, sus dioses y los ciclos
+        del tiempo. Registraban la información en diferentes
+        materiales, como piedras talladas, telas,
+        pieles, madera, huesos y cerámica.
+        Las pinturas, los símbolos y los signos eran
+        medios para describir y comunicar las ideas o
+        los puntos de vista acerca del mundo. Los representaban
+        en códices, mapas, calendarios,
+        pinturas murales y estelas de piedra. En las sociedades
+        mesoamericanas, los tlacuilos eran los
+        escritores, quienes tenían gran conocimiento
+        de la técnica pictórica y de las historias de sus
+        pueblos.
+        La elaboración de los códices fue una práctica
+        muy antigua. Éstos consistían en largas tiras
+        que se enrollaban o plegaban en forma de acordeón,
+        y se hacían con piel de venado o fibras
+        vegetales como el maguey y el papel amate.
+        En las culturas mesoamericanas se utilizaron
+        tres formas de representación: los pictogramas
+        que representaban seres humanos, animales y
+        plantas; los glifos ideográficos o ideogramas
+        que expresaban ideas, y los glifos fonéticos o
+        fonogramas que representaban sonidos.
+    </string>
+    <string name="agricolas">
+        En Mesoamérica existieron diferentes técnicas
+        agrícolas. Una destacada fue la de chinampa,
+        que consiste en una parcela de tierra construida
+        sobre lagunas de agua dulce. En las chinampas
+        se sembraba constantemente y la tierra casi no
+        descansaba. Esta técnica de cultivo sigue empleándose
+        en lugares como Xochimilco, en la
+        ciudad de México.
+        Otra técnica era el uso de parcelas en el bosque,
+        las cuales se aprovechaban por uno o dos
+        años y luego se abandonaban para permitir que
+        se renovara la vegetación.
+        El uso del riego artificial proveniente de lagos,
+        ríos, arroyos y manantiales fue una técnica
+        para retener el agua, reducir el tiempo de descanso
+        del terreno, intensificar el cultivo y extender
+        la práctica agrícola en terrenos áridos.
+        Las terrazas fueron otra modalidad de cultivo.
+        En las áreas montañosas se labraba la tierra
+        en forma escalonada para retener la humedad
+        del suelo y controlar la erosión.
+        La roza y la quema eran otras formas de preparar
+        la tierra para cultivarla. Consistía en talar
+        y quemar las plantas y los árboles de un terreno
+        para fertilizarlo y sembrar. Estas técnicas todavía
+        se practican en la actualidad.
+    </string>
+    <string name="herbolaria">
+        Los mesoamericanos usaban algunas plantas para curar enfermedades.
+        Conocieron las propiedades de diversas plantas y las
+        clasificaron según el tipo de padecimientos y síntomas que aliviaban.
+        Muchas de estas plantas se siguen usando en la actualidad,
+        como la jalapa, el guayacán, la zarzaparrilla, la valeriana, el
+        árnica y la papaya.
+        Este conocimiento se transmitía de padres a hijos. Entre los
+        mexicas, los hombres y las mujeres con un amplio conocimiento
+        sobre el uso de las plantas medicinales eran los titici.
+        Los mesoamericanos creían que el mundo era el centro del
+        universo, y cuando un ser humano enfermaba lo atribuían a la
+        pérdida del equilibrio del cuerpo con el universo.
+
+    </string>
+    <string name="festividades">
+        Para los mesoamericanos, las fiestas estaban
+        relacionadas con las estaciones del año y con
+        los dioses; por medio de ciertos festejos trataban
+        de influir en el equilibrio de las fuerzas de
+        la naturaleza.
+        Los mexicas realizaban tres tipos de fiestas
+        que ofrecían a los dioses del maíz y de la lluvia:
+        la primera se celebraba al inicio de la estación
+        seca; la segunda, en la época de siembra, y la
+        última, en la cosecha. Además, en los días correspondientes
+        al mes de abril, uno de los más
+        secos, hacían sacrificios de niños porque pensaban
+        que su muerte era un intercambio con
+        los dioses para que les mandaran la lluvia.
+        La música fue de gran importancia en el
+        mundo mesoamericano, pues ejercía un papel
+        destacado en los rituales. De su carácter mítico,
+        existen numerosos testimonios en crónicas,
+        códices y pinturas murales. Además, se contaba
+        con varios instrumentos musicales para su
+        ejecución. Desde la época mesoamericana se consumían
+        bebidas alcohólicas. En aquel tiempo se
+        tenían normas muy estrictas para tomarlas y
+        se consumían en un contexto básicamente ritual.
+        Una de las bebidas más destacada era el pulque.
+        Las festividades relacionadas con los muertos
+        se realizaban dos veces al año; una durante
+        el actual mes de julio, cuando se cortaba un árbol
+        llamado xocotl al que se le quitaba la corteza
+        y se adornaba con flores, haciéndole ofrendas y
+        reverencias, y la otra celebración se llevaba a
+        cabo en el actual mes de agosto, en la que se
+        realizaban ceremonias alrededor del tronco
+        del xocotl al que se ofrecían grandes comidas y
+        sacrificios humanos, mientras cantaban y danzaban
+        adornados con plumas. En esta ocasión,
+        elaboraban altares recordando a los familiares
+        difuntos, antecedentes de nuestras actuales
+        ofrendas del Día de Muertos.
+    </string>
+    <string name="arte">
+        Los pueblos mesoamericanos se distinguieron por su
+        creatividad y conocimientos artísticos. Destacaron por
+        su habilidad en una gran variedad de oficios, que a lo largo
+        del tiempo desarrollaron y cuya huella prevalece hasta
+        nuestros días.
+        La arquitectura, la pintura, el arte plumario, la orfebrería,
+        la escultura y las figurillas de barro fueron formas de
+        expresar la relación del ser humano con la naturaleza, los
+        dioses y el universo. Para ello, los mesoamericanos utilizaban
+        diversos materiales; por ejemplo, en la escultura
+        emplearon piedra, barro, concha, hueso, obsidiana
+        y madera; tallaron en alto y bajo relieve, además de
+        moldear el barro. La pintura se realizaba en cuevas,
+        vasijas, paredes de edificios, códices y textiles; en
+        ella usaron los colores rojo, ocre, azul, verde, negro
+        y blanco.
+        Los artesanos mixtecos y purépechas, quienes habitaban
+        en los actuales estados de Oaxaca y Michoacán,
+        se dedicaban a la orfebrería y destacaron en la elaboración
+        de joyas: anillos, aretes, boqueras, adornos para la nariz y el
+        pecho con aplicaciones de piedras preciosas, como la turquesa,
+        el jade y la obsidiana. El llamado arte plumario se caracterizó por el uso de
+        plumas de diversas aves como el quetzal, con las que se
+        hacían escudos, penachos y adornos para la vestimenta.
+        La alfarería fue una actividad importante entre los mesoamericanos.
+        Por lo general, los objetos se hacían con el
+        fin de satisfacer las necesidades cotidianas y para usarse
+        durante los rituales.
+    </string>
+
+
+    <!-- La conquista y el virreinato-->
+    <string name="colon">
+        A partir de 1453, los reinos europeos se vieron
+        obligados a explorar y establecer nuevas rutas
+        para comerciar con las poblaciones situadas en
+        Oriente, pues los caminos que solían usar fueron
+        bloqueados por los turcos-otomanos, con
+        los que estaban enfrentados. Este hecho favoreció
+        el desarrollo de la tecnología empleada en la
+        navegación y contribuyó a que se construyeran
+        barcos más resistentes y rápidos. Gracias a ello,
+        varios navegantes, principalmente españoles y
+        portugueses, hicieron diferentes viajes de exploración
+        hacia otros territorios y establecieron
+        nuevas rutas de navegación; así lograron,
+        por ejemplo, rodear África para llegar a India y
+        China.
+        En 1492, Cristóbal Colón, que buscaba una
+        ruta para viajar a India, tomó dirección hacia
+        Occidente y llegó a un continente desconocido
+        por los europeos, que más tarde sería llamado
+        América.
+        A partir de 1517, los españoles Francisco Hernández
+        de Córdoba, Juan de Grijalva y Hernán
+        Cortés hicieron diversas expediciones en el actual
+        territorio mexicano. Finalmente, con la conquista
+        de la parte central de Mesoamérica, en
+        1521, se iniciaron los procesos de colonización
+        de lo que hoy es México y de evangelización de
+        su población indígena.
+    </string>
+    <string name="navegacion">
+        Entre los siglos xi y xiii, los reinos de Europa organizaron ocho
+        expediciones militares cuyo objetivo inicial era recuperar Jerusalén,
+        que estaba bajo el dominio musulmán y era considerada
+        Tierra Santa por varias religiones.
+        A partir de estas guerras, llamadas Cruzadas, en Europa se
+        incrementó el consumo de artículos asiáticos, como
+        incienso, seda, marfil (colmillos de elefantes) y especias
+        (pimienta, canela y clavo, entre otras); estas últimas
+        eran muy apreciadas porque se empleaban como
+        conservadores de alimentos. Los productos asiáticos
+        llegaban a Europa por dos rutas (en el mapa de la
+        página 87 puedes ver cuáles eran).
+        En 1453, la ciudad de Constantinopla fue conquistada
+        por los turcos-otomanos y las costas del
+        mar Mediterráneo empezaron a ser asaltadas por
+        piratas aliados de los turcos. Debido a ello, se cerraron
+        las rutas terrestres y marítimas de comercio
+        y se interrumpió el intercambio de productos
+        entre los reinos de Europa y Asia.
+        Esta situación obligó a buscar nuevas formas para
+        llegar a India y China. Los navegantes al servicio de
+        los reinos de Portugal y España plantearon dos
+        rutas. Los portugueses realizaron la primera, que
+        consistió en rodear África por mar; así, Bartolomé
+        Díaz llegó al cabo de Buena Esperanza en el
+        extremo sur del continente africano, y Vasco
+        de Gama retomó esta ruta para llegar a India.
+        La segunda ruta, aún sin explorar, consistió
+        en dirigirse al Occidente, cruzar el océano
+        Atlántico para dar vuelta al mundo y llegar
+        a Oriente. Esta ruta fue seguida en 1492
+        por el genovés Cristóbal Colón, navegante
+        al servicio de España; pero él no llegó a
+        India, sino a un continente hasta entonces
+        desconocido por los europeos.Los viajes fueron posibles gracias
+        a los avances tecnológicos que realizaron en las embarcaciones y en los instrumentos de
+        navegación. Entre las embarcaciones destacaban la carabela,
+        un barco liviano con velas cuadradas que permitía aprovechar
+        los vientos favorables y resultaba muy rápido y resistente para
+        recorrer distancias largas, y la nao, una embarcación de mayor
+        tamaño que era usada para la guerra, o bien para transportar
+        mercancías procedentes de Asia.
+        A estos avances en los tipos de embarcaciones se sumó el
+        empleo de instrumentos como el astrolabio y la brújula, que permitieron
+        navegar con más seguridad. El astrolabio era usado por
+        los marinos para observar las estrellas y saber con precisión el
+        lugar donde se hallaban, mientras que la brújula les ayudaba a
+        orientarse y saber en qué dirección navegar.
+    </string>
+    <string name="contactos">
+        A finales del siglo xv en el reino de España, el marino genovés
+        Cristóbal Colón planeó dar la vuelta al mundo para llegar a India
+        y conseguir especias, pues entonces ya se sabía que la Tierra es
+        redonda. Fue financiado por los reyes católicos, Isabel de Castilla
+        y Fernando de Aragón, y el 3 de agosto de 1492 zarpó del
+        Puerto de Palos al mando de tres embarcaciones: dos carabelas
+        llamadas La Niña y La Pinta, así como una nao, La Santa María,
+        en la que viajó Colón.
+        Dos meses después, los exploradores españoles llegaron a
+        una isla a la que llamaron San Salvador. También recorrieron
+        otras islas a las que nombraron Fernandina (hoy Cuba) y La Española
+        (hoy República Dominicana y Haití).
+        A su regreso a Europa, Colón llevó objetos de oro, animales e
+        indígenas para mostrar la riqueza de las tierras exploradas. Por
+        este motivo, los reyes de España financiaron otra expedición
+        más grande que la anterior. Posteriormente, Colón realizaría
+        otros dos viajes con sus propios recursos, ya que los reyes le
+        habían retirado su apoyo tras fracasar en el segundo viaje. Las
+        expediciones de otros navegantes revelaron que Colón había
+        llegado a otro continente y no a India.
+        Algunos navegantes españoles se dedicaron a explorar el
+        territorio descubierto y a recorrer sus costas con la autorización
+        de los reyes, quienes se consideraban dueños de estos territorios.
+        Primero ocuparon las Antillas, y tomando como punto de partida
+        estas islas (especialmente Santo Domingo y Cuba), organizaron
+        expediciones para explorar el continente. Estas expediciones
+        fueron financiadas por los propios exploradores, quienes
+        eran capitanes y soldados que las veían como negocio y aventura.
+        De las ganancias, cada uno recibía una parte proporcional de
+        lo que había invertido y pagaba, como tributo, la quinta parte
+        de su ganancia a la Corona de España.
+        A dos décadas de haber llegado a América, los españoles se
+        establecieron en Cuba, que era gobernada por Diego Velázquez,
+        y continuaron las exploraciones en busca de metales preciosos.
+        En 1511 un grupo de exploradores que regresaba de Centroamérica
+        en un barco, al mando de Juan de Valdivia, naufragó y
+        algunos sobrevivientes, entre ellos Gonzalo Guerrero y Jerónimo
+        de Aguilar, arribaron a las costas de Yucatán. Años más tarde, en
+        1517, los españoles llegaron a Champotón, en el actual estado
+        de Campeche, donde pelearon contra los indígenas y murió su
+        capitán Hernández de Córdoba. Al año siguiente, Juan de Grijalva
+        recorrió lo que hoy es Veracruz hasta el río Pánuco y de
+        allí regresó a Cuba. Finalmente, la última expedición a cargo
+        de Hernán Cortés culminó con la conquista de Tenochtitlan.
+    </string>
+    <string name="conquista">
+        En 1519 Hernán Cortés, un militar español, dirigió una expedición
+        hacia las costas del territorio mesoamericano. En Yucatán
+        encontró a Jerónimo de Aguilar, quien había naufragado y vivía a
+        las órdenes de un gobernante maya, por lo que había aprendido
+        su lenguaje y le fue muy útil a Cortés como intérprete.
+        Por el río Grijalva, en el actual Tabasco, los españoles combatieron
+        contra los indígenas y al término del enfrentamiento, éstos
+        les regalaron algunas mujeres, una de ellas Malintzin (también
+        llamada Malinche). Era muy inteligente, además hablaba
+        maya, náhuatl y pronto aprendió español, por lo que llegó a ser
+        intérprete, consejera y compañera de Cortés.
+        Al desembarcar en lo que hoy es el estado de Veracruz, Hernán
+        Cortés fundó el primer ayuntamiento de América que llamó
+        la Villa Rica de la Vera Cruz, pues de esta manera dependería
+        directamente de la Corona española y dejaría de estar bajo las
+        órdenes del gobernador de Cuba, Diego Velázquez.
+        Moctezuma, el gobernante mexica, se enteró de la llegada
+        de Hernán Cortés y envió mensajeros al encuentro de los españoles
+        con la instrucción de ofrecerles regalos a cambio de que
+        abandonaran sus planes de llegar hasta Tenochtitlan. Pero ante
+        la riqueza de los regalos, los españoles se interesaron en seguir
+        adelante, y en el camino se aliaron con varios pueblos sometidos
+        por los mexicas que eran obligados a pagarles tributo. El descontento
+        de estos pueblos facilitaría la derrota mexica.
+        Cuando los españoles viajaban hacia Tenochtitlan, los indígenas
+        totonacos invitaron a Cortés para que visitara al señor
+        de Cempoala, con quien se alió. Posteriormente, los conquistadores
+        siguieron su camino y formaron otras alianzas. Así, se
+        encontraron con los tlaxcaltecas, que no eran tributarios de los
+        mexicas y con quienes tenían una fuerte rivalidad. Tras perder
+        algunas batallas en contra de los españoles, los tlaxcaltecas decidieron
+        aliarse con ellos para terminar con el dominio mexica.
+        Las alianzas de los españoles con los indígenas fueron determinantes
+        para que cayera la ciudad de México-Tenochtitlan,
+        pues los combatientes indígenas eran más numerosos que sus
+        aliados españoles, lo que favoreció que ganaran las batallas.
+        En noviembre de 1519, los españoles llegaron a Tenochtitlan;
+        fueron recibidos por los mexicas y alojados en el palacio de Axayácatl.
+        Para prevenir un posible ataque y asegurar su vida y la de
+        su ejército, Cortés tomó prisioneros a Moctezuma, Cuitláhuac y
+        otros señores importantes, exigiendo el sometimiento del pueblo
+        y un cuantioso tributo a cambio de ellos.
+        Mientras tanto, en la Villa Rica de la Vera Cruz desembarcaron
+        tropas españolas comandadas por Pánfilo de Narváez,
+        quien, por orden de Diego Velázquez, debía detener a Cortés
+        por haber intentado conquistar tierras sin su autorización. Cortés
+        se enteró de esta noticia y decidió ir a enfrentarlos, dejando
+        a Pedro de Alvarado encargado en Tenochtitlan.
+        En ausencia de Cortés, durante una fiesta en honor a Huitzilopochtli
+        que se celebraba en el Templo Mayor, Pedro de Alvarado
+        decidió atacar a los mexicas, lo que causó una rebelión. A
+        su regreso, Cortés le pidió a Moctezuma que tranquilizara a su
+        pueblo, pero cuando enfrentó a la multitud no fue escuchado y
+        lo hirieron de muerte.
+        Tras este suceso, el 30 de junio de 1520, Cortés intentó huir
+        de Tenochtitlan, pero fue descubierto y atacado por los mexicas
+        camino a Tlacopan, hoy Tacuba, en la ciudad de México. En esta
+        batalla murieron muchos españoles y perdieron la mayoría de
+        las riquezas que habían obtenido, siendo la peor derrota que tuvieron
+        durante la Conquista, por eso ellos la llamaron “La noche
+        triste”, aunque para los mexicas fue una noche de triunfo.
+        Fue entonces que Cortés mandó traer, desde la Villa Rica de
+        la Vera Cruz, más hombres, caballos y armas para reforzar su
+        ejército; ordenó la construcción de bergantines (pequeños barcos
+        de vela con cañones) para navegar y poder combatir a los
+        mexicas en el lago de Texcoco, y también se alió con otros pueblos
+        indígenas que habitaban cerca de Tenochtitlan, como los
+        huexotzincas, los chalcas y los otomíes.
+        Además de sus armas, caballos y aliados indígenas, los españoles
+        contarían con otro aliado sin saberlo: la viruela. Esta enfermedad,
+        hasta entonces desconocida por los indígenas, atacó
+        a la población.
+        Eran tan pocos los habitantes que no se habían contagiado
+        que apenas podían alimentar y cuidar a quienes sí lo estaban.
+        Algunas personas huyeron por miedo al contagio; así se desintegraron
+        familias y poblaciones enteras quedaron deshabitadas,
+        por lo que la epidemia de viruela favoreció la conquista.
+        Luego de la muerte de Moctezuma, Cuitláhuac
+        asumió el
+        mando, pero al poco tiempo murió víctima de la viruela y fue
+        reemplazado por Cuauhtémoc.
+        En mayo de 1521, los españoles incomunicaron Tenochtitlan
+        y bloquearon el suministro de alimentos y agua. Los mexicas resistieron
+        el sitio por alrededor de tres meses, hasta que el 13 de
+        agosto de 1521 los conquistadores apresaron a Cuauhtémoc,
+        logrando así la conquista de Tenochtitlan.
+    </string>
+    <string name="colonizacion">
+        Después de la conquista de Tenochtitlan se iniciaron varias expediciones
+        hacia el norte y sur de Mesoamérica, con dos objetivos
+        principales: la búsqueda de metales preciosos (oro y plata)
+        y la evangelización.
+        La colonización de la zona de Occidente comenzó cuando Cortés
+        mandó a Cristóbal de Olid a Tzintzuntzan (lugar de colibríes),
+        en el actual estado de Michoacán. En tanto, Nuño Beltrán de Guzmán
+        exploró lo que hoy son Jalisco y Zacatecas y fundó la ciudad
+        de Guadalajara en 1530. Los pobladores buscaron un mejor lugar
+        y fundaron en forma definitiva la ciudad de Guadalajara en 1542.
+        Entre 1534 y 1548 se descubrieron yacimientos de plata en
+        lo que hoy son Taxco, en Guerrero, Zacatecas y Guanajuato.
+        Por ello, se establecieron presidios, lugares cercanos a las minas,
+        que los españoles usaban para defenderse de los ataques
+        de grupos nómadas, así como misiones, que resultaron fundamentales
+        para la colonización de los territorios del norte. Los
+        frailes se acercaron a los grupos nómadas de esta región para
+        evangelizarlos, pero el proceso fue muy lento y no se consiguió
+        en todas las regiones.
+        Por su parte, Pedro de Alvarado inició una expedición hacia
+        el sur en busca de metales preciosos y exigió a los mayas que le
+        entregaran riquezas, motivo por el que se enfrentó con ellos.
+    </string>
+    <string name="mestizaje">
+        Una vez iniciado el proceso de colonización, los españoles llevaron
+        a cabo diversas acciones para gobernar las áreas que habían
+        conquistado; una de ellas fue reubicar los pueblos y agruparlos
+        en torno a nuevas aldeas. Así dio inicio el diseño de ciudades
+        caracterizadas por una plaza central, una gran iglesia y calles
+        rectas, tal y como siguen existiendo en los centros históricos de
+        muchas ciudades de nuestro país.
+        La reubicación de las poblaciones indígenas hizo que muchas
+        familias se integraran con otras que tenían tradiciones y lenguas
+        diferentes, lo que favoreció que surgieran nuevas formas
+        de nombrar las cosas, costumbres, valores e ideas.
+        La Corona española envió a un grupo de frailes para convertir
+        a los indígenas de los territorios conquistados a la religión católica
+        por medio de la evangelización. Estos religiosos se propusieron
+        transformar las creencias de las culturas originarias, por
+        lo que en cada poblado establecieron un convento con su respectiva
+        iglesia y fomentaron el culto a un determinado santo en
+        cada pueblo; esto contribuyó a generar una nueva identidad y a
+        resaltar el papel central que se le daba a la Iglesia.
+        Los frailes también se encargaron de la educación de los hijos
+        de las familias indígenas de los estratos altos, enseñándoles a
+        los niños religión, escritura, aritmética y canto, mientras que
+        a las niñas las instruían en otras labores consideradas necesarias
+        para ser buenas esposas y madres cristianas.
+        Como consecuencia de la nueva organización y la enseñanza,
+        las creencias y formas de vida de los indígenas se transformaron.
+        Aunque sus dioses fueron reemplazados, no todas las creencias
+        indígenas desaparecieron; algunas se integraron con la nueva
+        religión. Un ejemplo de esto que prevalece hasta nuestros días
+        es la celebración del Día de Muertos, que integra creencias indígenas
+        y cristianas sobre la muerte.
+        A pesar de que había restricciones para viajar de Europa a
+        América, a mediados del siglo xvi la población española había
+        aumentado a 20 000 habitantes.
+        En las ciudades donde se establecieron construyeron catedrales
+        y edificios de tipo europeo; sin embargo, estas construcciones
+        adquirieron un aspecto propio por los materiales que se utilizaron
+        y, sobre todo, porque fueron hechas por los indígenas.
+        A mediados del siglo xvi, muchos pobladores españoles hablaban
+        náhuatl u otras lenguas originarias, además muchos nobles
+        indígenas se habían hispanizado. El español que se habla en
+        México es resultado de este proceso de mestizaje cultural, pues
+        tomó muchas palabras de las lenguas originarias; por ejemplo, del
+        náhuatl: chocolate, guajolote, jitomate, chile o metate. Otras
+        palabras se incorporaron de las lenguas que se hablaban en las
+        Antillas y fueron traídas por los españoles, como mamey, barbacoa,
+        canoa o hamaca.
+        Así se fue desarrollando un mestizaje que generó una nueva
+        sociedad en la que convivieron indígenas, españoles, asiáticos y
+        africanos; estos últimos fueron traídos por los europeos como
+        esclavos.
+        El mestizaje trajo consigo la introducción de nuevas actividades
+        económicas como la ganadería, y el cultivo de trigo o de
+        azúcar, lo que influyó en el tipo de alimentos que se consumían,
+        ya que la cocina indígena incorporó los ingredientes europeos y
+        a su vez la cocina europea incluyó los ingredientes americanos,
+        transformando los sabores originales.
+    </string>
+    <string name="mesoamericanosEs">
+        Los pueblos mesoamericanos organizaban combates que tenían
+        un sentido sagrado con el fin de obtener cautivos para el sacrificio,
+        pues la guerra formaba parte de su concepción del universo.
+        Los pueblos antiguos pensaban que el Sol necesitaba alimento
+        para que no se agotara su energía, así que le ofrecían sangre
+        y corazones humanos. Por esta razón, la guerra representaba
+        un momento privilegiado para conseguir prisioneros que eran
+        sacrificados en ceremonias religiosas.
+        Por tanto, no concebían la guerra como una forma de exterminio
+        del enemigo, aun si morían guerreros en combate, sus esfuerzos
+        estaban dirigidos a capturar a sus contrarios. Su valor se
+        estimaba por el número de enemigos capturados; los guerreros
+        Guerreros mexicas tomando prisioneros, Códice Mendocino.
+        con más rango, por su alto número de cautivos
+        obtenidos, eran los “guerreros águila” y los
+        “guerreros jaguar”.
+        La mayoría de los guerreros se peinaba con
+        un copete en la base de la cabeza, de donde
+        eran agarrados cuando los capturaban; dejarse
+        tomar por el cabello significaba la derrota.
+        La actividad guerrera era un ritual: consistía en
+        una feroz batalla en donde los guerreros luchaban
+        cuerpo a cuerpo en medio de gritos, sonidos
+        de caracoles y música de tambores. El combate
+        nunca era sorpresivo, empezaba y terminaba con
+        una señal que pactaban previamente al enfrentamiento;
+        podía ser el sonido de un silbato.
+        Por otro lado, con mucha frecuencia para los
+        europeos la guerra implicaba el exterminio del
+        enemigo, por lo que diseñaban estrategias para
+        acabar con ellos. Por ejemplo, cuando atacaron
+        a los tlaxcaltecas en sus primeros enfrentamientos,
+        los españoles llegaron a una de sus principales ciudades
+        y ahí mataron a los pobladores desarmados,
+        hombres, mujeres, ancianos, niñas y niños.
+        Los españoles trajeron consigo armas desconocidas para los
+        pobladores mesoamericanos, como las de fuego: cañones y escopetas;
+        también, animales que no se conocían y que usaban en
+        el combate, como caballos y perros de presa.
+        Por otra parte, con la experiencia de la guerra que los españoles
+        tuvieron en su país contra los musulmanes, a quienes llamaban
+        “moros”, pensaron que iban a la batalla guiados por un
+        santo llamado Santiago Matamoros y consideraban que vencían
+        a sus enemigos en nombre de su dios.
+        Tanto para los españoles como para los mexicas, el triunfo en
+        la guerra determinaba qué grupo debía mandar sobre el otro, y
+        ambos consideraban que la victoria la obtenían gracias al apoyo
+        y poder de su dios sobre el de los vencidos, además de la valentía
+        de sus guerreros.
+    </string>
+    <string name="virreinato">
+        El 13 de agosto de 1521 se consumó la conquista de México-Tenochtitlan.
+        A partir de entonces, inició la edificación de una nueva
+        ciudad construida sobre las ruinas de la que anteriormente
+        ocuparon los mexicas; ésta se convertiría en el centro político
+        y administrativo de Nueva España, que fue como los españoles
+        llamaron al territorio conquistado. Asimismo explorarían otras
+        regiones, fundarían ciudades y asignarían funcionarios para gobernarlas
+        y administrarlas.
+        Nueva España fue un territorio con límites difusos que fueron
+        cambiando y ampliándose con el paso de los siglos. En el siglo
+        xvi, los actuales estados de Zacatecas y Durango representaban
+        la parte norte del virreinato, sin embargo, con el tiempo se extendió
+        hacia lo que hoy son California, Arizona, Nuevo México
+        y Texas en Estados Unidos. Hacia el sureste se extendió hasta
+        parte de lo que hoy es Centroamérica.
+        Además de las exploraciones, conquistas y colonizaciones realizadas
+        por tierra, también se hicieron por mar, en las costas de los
+        actuales estados de Veracruz y Tamaulipas en el Golfo de México,
+        y de Oaxaca a Sinaloa en el océano Pacífico; en el siglo xviii éstas
+        avanzaron más al norte.
+        Como el territorio conquistado por los españoles llegó a ser
+        muy extenso establecieron reinos, capitanías y provincias para
+        gobernarlo, como el Reino de Nueva Vizcaya, el Reino de Nueva
+        Galicia, el Reino de Nueva España (México), el Nuevo Reino de
+        León, la Capitanía General de Yucatán, la Capitanía General
+        de Guatemala y las provincias de Coahuila o Nueva Extremadura.
+        En las costas dos puertos tuvieron gran actividad desde los
+        inicios del Virreinato: Veracruz en el Golfo y Acapulco en el Pacífico.
+        Con el paso del tiempo se fueron creando nuevos puertos
+        comerciales, como el de San Blas y el de Tampico en los actuales
+        estados de Nayarit y Tamaulipas, respectivamente, entre otros.
+        Hacia finales del siglo xvi, Nueva España se
+        había convertido en el centro del comercio internacional
+        debido a su ubicación geográfica,
+        que permitió que recibiera influencias culturales
+        a través del comercio y la migración de
+        personas provenientes de Europa, Asia y África.
+        De Europa llegaban productos como vino,
+        aceite de oliva y textiles; de Asia, marfiles, porcelanas
+        y sedas. También fueron traídos esclavos
+        de África, a quienes se les destinó a trabajar en las minas y haciendas
+        porque la población indígena
+        que hacía esos trabajos disminuyó a causa
+        de las epidemias y las guerras de conquista.
+        De todas esas partes del mundo vinieron
+        personas que trajeron consigo costumbres y
+        tradiciones que se mezclaron con las de los pueblos
+        indígenas y las de los españoles para crear
+        la diversidad cultural que conformó a Nueva
+        España.
+    </string>
+    <string name="sociedadvirreinal">
+        La sociedad de Nueva España se integró inicialmente por tres
+        grupos: indígenas, españoles y africanos. Aunque en algunas
+        ciudades se destinaron lugares diferentes para que vivieran los
+        españoles y los indígenas, la convivencia diaria entre ambos grupos
+        favoreció la mezcla de sus costumbres.
+        Debido a que la población indígena disminuyó por las epidemias
+        y las guerras de conquista, los españoles trajeron esclavos
+        africanos para destinarlos a diversos trabajos en las minas y las
+        haciendas azucareras.
+        Los indígenas fueron reunidos por los españoles en nuevos
+        poblados para facilitar su evangelización y cobrarles tributo. En
+        algunos casos, mantuvieron características de su organización
+        prehispánica, como la propiedad comunal.
+        Los esclavos que venían de muy lejos eran vendidos a costos
+        muy altos, por lo que la mayoría fueron hombres ya que sus
+        amos los hacían trabajar mucho para recuperar lo que habían
+        invertido en ellos. Aunque la mayoría eran africanos, algunos
+        venían de China, Filipinas o India. También hubo casos en que
+        los españoles esclavizaron indígenas con los que habían peleado
+        durante la Conquista.
+        Con el paso del tiempo, la convivencia entre españoles, indígenas
+        y africanos dio origen al mestizaje y a las castas. Los
+        hijos de padres de distintos grupos sociales y étnicos formaban
+        las castas. Según el origen de los padres se daba un nombre diferente
+        a cada casta; por ejemplo, los hijos de un español y una
+        indígena eran llamados mestizos, y los de un español y una africana,
+        mulatos.
+        En Nueva España se determinaban las diferencias sociales con la palabra
+        “calidad”, que se establecía por varias características; por ejemplo,
+        tener la “calidad” de español significaba desempeñar algún oficio o tener
+        una profesión considerada respetable, pertenecer a una familia
+        legítima, comportarse de manera honorable y recibir reconocimiento de
+        las personas de su comunidad. Muchos de quienes reunían esas características
+        no eran precisamente españoles sino criollos (hijos de españoles nacidos en
+        América). Los pobladores de Nueva España que habían nacido en España
+        (también llamados peninsulares) formaban el grupo más pequeño y privilegiado
+        de la población; tenían el control económico y político, y desempeñaban importantes
+        puestos en el gobierno.
+        Los criollos se enorgullecían de sus padres españoles y consideraban que sus
+        costumbres eran hispanas; sin embargo, los extranjeros que visitaban
+        Nueva España consideraban que las personas tenidas por “calidad” de españoles
+        no se parecían a los de Castilla y tenían muchas costumbres de
+        origen indígena, por lo que sus gustos, sentimientos
+        y forma de vida eran ya propiamente de una nueva cultura: la novohispana.
+        Por las calles de las ciudades, indígenas y mestizos trabajaban
+        en distintas actividades: vendían comida, frutas, animales domésticos,
+        o acarreaban agua en ollas que cargaban mediante cintas
+        de cuero, desde las fuentes situadas en las plazas hasta las casas;
+        además, solían contar las novedades y las noticias ocurridas en la
+        comunidad.
+        En el campo, las casas tenían pequeños terrenos para usar
+        como huertos o para criar animales, mientras las tierras de cultivo
+        se encontraban a las afueras de los pueblos.
+        Los grupos sociales de Nueva España convivían en diversos
+        espacios: ferias, pulquerías, corridas de toros, peleas de gallos,
+        iglesias, mercados y teatros, así como en las fiestas y procesiones
+        religiosas, entre otras celebraciones que cada pueblo, villa,
+        ciudad o región organizaba por su cuenta, pero en las que compartían
+        rasgos en común.
+        Con el tiempo, los criollos empezaron a valorar su sentido de
+        pertenencia a Nueva España, se identificaron con el paisaje y sus
+        riquezas naturales, así como con su cultura, la comida, el arte y
+        la música. Sin embargo, la desigualdad de oportunidades frente
+        a los españoles recién llegados en el siglo xviii produjo malestar
+        social.
+    </string>
+    <string name="organizacionpolitica">
+        Tras la Conquista, los territorios, la población
+        y las riquezas que se extraían de Nueva España
+        quedaron bajo la autoridad del rey de España,
+        quien originalmente delegó en Hernán
+        Cortés todas las funciones políticas, económicas,
+        administrativas y de justicia. Al principio,
+        los conquistadores mantuvieron los sistemas
+        de gobierno indígenas, así que los antiguos
+        señoríos se conservaron, al igual que el cobro
+        de tributos y la organización del trabajo.
+        En 1528 se estableció una institución llamada
+        Real Audiencia para evitar el abuso de poder de
+        los conquistadores. Posteriormente, en 1535, el
+        rey de España nombró a un virrey como su representante
+        en Nueva España para cuidar directamente
+        sus intereses y gobernar el territorio
+        conquistado. Así se inició el Virreinato, el cual se
+        organizó de la siguiente forma.
+        Rey. El gobierno de todas las posesiones españolas
+        en el mundo estaba encabezado por el
+        rey, quien era la autoridad suprema. Gobernaba
+        desde Europa, por medio de instituciones y
+        autoridades que él nombraba. Con la Conquista,
+        Nueva España se integró al imperio español
+        como un reino asociado, de la misma manera
+        que Aragón, Navarra, Nápoles o Perú, por lo que
+        el rey representó un símbolo de unidad; sin embargo,
+        cada reino mantuvo cierta autonomía.
+        Consejo de Indias. Se encontraba en España y
+        proponía al rey las políticas para los territorios
+        americanos: elaboraba las leyes, nombraba a
+        los funcionarios, supervisaba la recaudación de
+        impuestos, actuaba como tribunal y recopilaba
+        los registros e informes geográficos e históricos
+        del territorio. Se nombraban visitadores
+        para atender los problemas políticos y administrativos
+        que surgían en los distintos territorios.
+        Casa de Contratación de Sevilla. Regulaba desde
+        la península ibérica todo el comercio entre
+        España y Nueva España; autorizaba la entrada
+        y salida de los barcos mercantes y de pasajeros;
+        también, llevaba el registro de los metales exportados
+        desde América, como el oro y la plata.
+        Virrey. Lo nombraba el rey como su representante
+        directo. En general, era un noble con experiencia
+        militar; se encargaba de dirigir la política,
+        la economía y la justicia de Nueva España,
+        así como de apoyar a la Iglesia en su labor evangelizadora.
+        Al concluir su mandato, se le sometía
+        a un juicio llamado “de residencia” para dar
+        a conocer su desempeño.
+        Audiencias. Eran tribunales civiles y judiciales
+        encargados de escuchar las quejas de los pobladores,
+        procurar la justicia y aplicar las leyes. Sus
+        miembros eran abogados y ejercían el poder en
+        caso de ausencia del virrey.
+        Gobernadores. Eran designados por el rey de
+        España. Se encargaban de administrar los reinos
+        novohispanos, llamados provincias, como
+        el de Nueva Galicia, Nuevo León o Nueva Vizcaya,
+        entre otros. Durante la segunda mitad del
+        siglo xviii, estos territorios se convirtieron en
+        intendencias y quienes las gobernaban eran llamados
+        intendentes.
+        Cabildo o ayuntamiento. Estaban integrados
+        por grupos de personas que eran seleccionadas
+        de entre los habitantes de su localidad. Se
+        encargaban de resolver los problemas políticos,
+        económicos, administrativos y judiciales de la
+        región a su cargo. En las ciudades se le denominaba
+        ayuntamiento y en las poblaciones con
+        menor número de habitantes, cabildo. También
+        se encargaban del reparto de tierras y de
+        la recaudación de ciertos impuestos.
+        A principios del siglo xviii, la dinastía francesa de los Borbones
+        ocupó el trono de España y aplicó una serie de medidas en
+        sus territorios americanos conocidas como reformas borbónicas.
+        Algunas de estas reformas fueron el aumento del tributo
+        a los indígenas, la creación de nuevos impuestos, la restricción
+        de la autoridad del virrey, la reducción del número de criollos en
+        la Real Audiencia y la disminución de órdenes religiosas. Dichas
+        medidas, aunadas a las diferencias entre grupos sociales, intensificaron
+        el malestar social que, hacia principios del siglo xix,
+        sería una de las causas del movimiento de Independencia.
+    </string>
+    <string name="agriculturaEs">
+        Los españoles introdujeron en América nuevas plantas y semillas
+        para la agricultura, lo cual diversificó el cultivo mesoamericano
+        (observa el cuadro de plantas y animales introducidos
+        en América por los españoles, que aparece en la página 127).
+        La agricultura también cambió con la nueva tecnología, es decir,
+        con el empleo de herramientas que se utilizaban en Europa
+        como el arado, los azadones, las hoces, las palas, las tenazas y
+        los molinos, así como con el uso de animales de tiro.
+        A pesar de que se introdujeron numerosos productos agrícolas,
+        varias especies locales conservaron su importancia, por ejemplo,
+        el maíz, que se volvió el primer producto comercial; el agave, que
+        se usaba para producir fibras (henequén) y bebidas alcohólicas
+        (mezcal y tequila), y el maguey para preparar el pulque.
+        Con la explotación de las minas, los españoles fundaron haciendas
+        en las que se sembraban maíz, algodón, caña de azúcar
+        y cereales para abastecer el comercio con las zonas mineras y
+        otras ciudades novohispanas.
+    </string>
+    <string name="mineriaEs">
+        La obtención de oro y plata fue uno de los objetivos de los viajes
+        de exploración y conquista, y de la consecuente expansión
+        española. Así, desde el siglo xvi se exploraron varios territorios
+        americanos y se descubrieron yacimientos de plata y oro.
+        Al poco tiempo, la minería se convirtió en la actividad más
+        importante del Virreinato y se integró al comercio internacional,
+        lo que impulsó las otras actividades económicas novohispanas.
+        Esta actividad económica favoreció el desarrollo del norte
+        de Nueva España, pues la búsqueda de nuevos yacimientos y la
+        explotación de las minas lo transformaron en una región económica
+        muy importante, con una composición social integrada
+        en su mayoría por criollos y mestizos, y, en menor medida, por
+        indígenas y españoles.
+        En el norte de Nueva España se establecieron otras formas
+        de explotación, diferentes a las existentes en el centro, para
+        cubrir la mano de obra que requería el trabajo en las minas, y
+        además porque había menos población indígena. Por ejemplo,
+        se reclutaron “indios de reparto” (obligados al repartimiento),
+        esclavos y, con el tiempo, trabajadores a quienes aparte de su
+        sueldo se les pagaba un extra según la cantidad de metal que
+        extrajeran.
+        En el siglo xviii, Nueva España se había constituido como el
+        territorio más importante para la Corona española, ya que de
+        sus minas obtenía grandes cantidades de valiosos metales que
+        exportaba a Europa y Asia. Mucha de la plata extraída de minas
+        de los actuales estados de Guanajuato, San Luis Potosí y Zacatecas,
+        por ejemplo, se exportaba a Filipinas y de ahí a China.
+    </string>
+    <string name="ganaderia">
+        Los españoles trajeron a América varias especies de animales,
+        tanto para actividades agrícolas y mineras como para su alimentación.
+        Durante el Virreinato hubo ciertas restricciones para el
+        uso y la posesión de ganado mayor, como vacas y caballos, pero
+        con el tiempo los indígenas incorporaron la crianza de ganado
+        menor, como cabras, cerdos y borregos, y el pastoreo a sus actividades
+        cotidianas.
+        Desde las primeras décadas del siglo xvi, las condiciones
+        climáticas y geográficas favorecieron la producción ganadera;
+        como consecuencia, los precios de la carne y la leche, y sus derivados
+        (piel, embutidos, quesos) fueron accesibles para más
+        personas. Incluso la dieta de los indígenas se transformó, pues
+        se agregó el consumo de cerdos y gallinas.
+        También la crianza de borregos permitió una importante
+        producción de lana, lo que posibilitó la fabricación de telas, particularmente,
+        en el centro del territorio de Nueva España.
+        El caballo fue uno de los animales traídos por los españoles
+        que más influyó en la vida cotidiana. Desde su llegada fueron
+        indispensables para que los conquistadores recorrieran
+        la amplia extensión del territorio. Sin embargo, no todos los
+        caballos fueron utilizados de la misma manera, pues algunos
+        se ocuparon para cultivar las tierras jalando los arados;
+        otros por los comerciantes en sus largos recorridos, y algunos
+        más por los novohispanos ricos, quienes se sentían orgullosos
+        de sus lujosos caballos, ya que un hombre poderoso no podía
+        andar a pie. En esa época su caballo era muy importante, dado
+        que lo utilizaba para participar en torneos, corridas de toros,
+        juegos, cabalgatas, procesiones, paseos por las plazas y para
+        cortejar a las damas.
+    </string>
+    <string name="comercioes">
+        Los productos ganaderos, agrícolas y mineros de Nueva España
+        se distribuían mediante el comercio interno y externo. Al interior
+        del territorio la producción se vendía en tianguis y plazas,
+        y se distribuía gracias a los arrieros, quienes comúnmente eran
+        hombres fuertes y rudos porque tenían que defender las mercancías
+        que transportaban de posibles asaltos, además, se dice
+        que eran muy honrados.
+        En Nueva España había una intensa actividad comercial, por
+        lo que se conformaron regiones especializadas en el intercambio
+        de ciertos productos.
+        Los sitios con mayor actividad comercial eran los puertos, especialmente
+        dos. Veracruz, donde se intercambiaban productos
+        con España (como materias primas, productos de minería, grana
+        cochinilla, palo de Campeche, vainilla, etcétera); allí llegaban
+        las disposiciones del rey y la correspondencia de Europa. El otro
+        puerto era Acapulco que tenía rutas con destino a Asia, de donde
+        se traían mercancías de lujo (ropa, seda, marfil), especias, papel
+        y pólvora (revisa el mapa de la página 133 para que observes
+        cuáles eran y dónde estaban los principales puertos de Nueva
+        España).
+        Para la venta de ciertos productos era necesaria la autorización
+        del virrey, ya que así se podían obtener más beneficios para
+        la Corona. Algunos productos como el tabaco, el alcohol y los
+        naipes estaban bajo el control de la Corona para obtener el pago
+        de impuestos, llamados alcabalas. Con frecuencia estos bienes
+        eran objeto de contrabando.
+        El comercio se volvió tan importante que el rey decidió regularlo,
+        y autorizó la fundación del Consulado de Comerciantes en
+        la ciudad de México, el cual acaparó las actividades comerciales
+        durante casi todo el periodo del Virreinato, hasta que a mediados
+        del siglo xviii la Corona fundó dos nuevos consulados, en
+        Veracruz y en Guadalajara.
+        Los principales problemas a los que se enfrentó el comercio
+        marítimo fueron la piratería, el contrabando, los huracanes y el
+        monopolio de algunos comerciantes.
+    </string>
+    <string name="iglesianovo">
+        La Iglesia tuvo gran importancia durante el
+        Virreinato, pues los reyes españoles gozaron de
+        un privilegio que se llamó Patronato Real. Éste
+        consistió en un permiso que les otorgó el papa
+        para controlar todos los asuntos administrativos
+        de la Iglesia católica en su imperio, por eso
+        los reyes designaban a todas las autoridades
+        eclesiásticas, entre ellas, a los obispos, quienes,
+        además de atender asuntos religiosos, solían ser
+        altos funcionarios de la Corona, incluso llegaron
+        a ejercer el cargo de virreyes. De esta forma
+        la Iglesia novohispana estaba muy influida
+        por los intereses políticos de la Corona.
+        Asimismo, la Iglesia desempeñó un papel importante
+        en los ámbitos educativo y cultural,
+        ya que mediante su intervención se crearon
+        escuelas, seminarios y universidades. Con las
+        aportaciones de los creyentes y la labor de
+        las órdenes religiosas se establecieron un gran
+        número de hospitales y orfanatos que atendían
+        toda clase de enfermos y asistían a los huérfanos,
+        pues era usual que en tiempos de crisis se
+        abandonara a los recién nacidos en casas de familias
+        ricas o en monasterios.
+        La sociedad novohispana era profundamente
+        religiosa y confiaba en los milagros. Por tanto,
+        era común que en las iglesias se veneraran
+        santos que habían aparecido en sus pueblos
+        o sus comunidades. El culto más popular que
+        tuvo devotos de todos los grupos sociales fue
+        el de la Virgen de Guadalupe, que llegó a convertirse,
+        especialmente durante el siglo xviii,
+        en un símbolo de identidad novohispana.
+        Las festividades religiosas marcaban el ritmo de
+        la vida cotidiana tanto en el campo como en las
+        ciudades. Las procesiones eran frecuentes y participaban todos los
+        grupos sociales; las calles se adornaban con flores y se solían realizar
+        bailes de origen mesoamericano con influencia de costumbres españolas
+        y africanas.
+        En 1571 se estableció en Nueva España el Tribunal del Santo
+        Oficio, también llamado la Santa Inquisición, cuya función era
+        juzgar y castigar a quienes se alejaban de la fe católica.
+        Los juicios que realizó la Inquisición en Nueva España, en general
+        se ocuparon de actividades consideradas como hechicería;
+        por ejemplo, algunas mujeres utilizaban muñecos o dibujos de
+        diablos para preparar un embrujo y lograr que alguien las amara,
+        conseguir dinero o lastimar a un enemigo. Sin embargo, estos
+        casos no eran castigados con tanta dureza, porque los jueces
+        pensaban que eran personas ingenuas e incultas. Aunque algunos
+        delitos religiosos se llegaban a castigar con pena de muerte,
+        el uso de ciertas plantas, hechizos o encantamientos no se consideraba
+        tan grave.
+        Pero con la llegada de la dinastía de los Borbones y la aplicación
+        de sus reformas, en la segunda mitad del siglo xviii se criticaron
+        las tradiciones religiosas populares, lo que provocó que
+        surgieran movimientos religiosos para conservarlas.
+    </string>
+    <string name="rebelionesvirreinato">
+        Durante el tiempo que duró el Virreinato hubo diversas rebeliones
+        organizadas por indígenas, esclavos africanos y criollos.
+        La primera por parte de esclavos africanos ocurrió en la ciudad
+        de México en 1546, y hacia el siglo xvii, en Veracruz, había
+        aumentado el número de esclavos sublevados encabezados por
+        Yanga y vivían refugiados en las montañas. Después de varios
+        enfrentamientos con los españoles lograron negociar establecerse
+        de manera libre en el poblado que llamaron San Lorenzo
+        de los Negros.
+        En el norte de Nueva España, durante el siglo xvii, también
+        hubo importantes rebeliones de indígenas acaxees, tepehuanes,
+        conchos, tobos y tarahumaras, entre otros. Algunas fueron
+        ferozmente sometidas, mientras que otras propiciaron el establecimiento
+        de acuerdos entre las autoridades españolas y los
+        indígenas.
+        Simultáneamente, en la península de Yucatán estallaron rebeliones
+        mayas permanentes contra los españoles, entre las que
+        destaca la encabezada por Jacinto Canek que pretendía restablecer
+        la cultura maya, pero que no logró su cometido.
+        Una rebelión muy particular –ya que buscaba la independencia
+        de Nueva España desde el siglo xvi– fue la encabezada por
+        Martín Cortés, hijo de Hernán Cortés. Debido a que la Corona
+        española decidió que los hijos de los conquistadores no podían
+        heredar los bienes que sus padres habían conseguido en vida,
+        varios criollos afectados consideraron la posibilidad de independizarse
+        de España ofreciéndole a Martín Cortés ser el rey de
+        Nueva España. Sin embargo, denunciaron y detuvieron a los rebeldes.
+        Algunos de los criollos participantes fueron decapitados
+        y sus cabezas se exhibieron para que sirviera de escarmiento.
+        Además de estas rebeliones, en las ciudades hubo constantes
+        motines debido al descontento de la población por las injusticias
+        o la falta de alimentos. En 1692, en la ciudad de México, hubo
+        escasez de maíz y los más pobres organizaron una protesta para
+        exigir al gobierno que les proporcionara ese alimento. Los amotinados
+        quemaron el palacio del virrey y después saquearon los
+        puestos de los mercados cercanos, hubo incendios y asaltos, y
+        aunque fueron sometidos, lograron que el virrey consiguiera
+        maíz, además de otros alimentos y que se produjera mayor cantidad
+        de pan.
+        En la segunda mitad del siglo xviii, surgieron diversas manifestaciones
+        de descontento social debido a las transformaciones
+        planteadas por las reformas de la dinastía de los Borbones. Fue
+        el caso de una serie de protestas provocadas por la expulsión de
+        los jesuitas del territorio novohispano; la reacción de las autoridades
+        fue ejecutar a algunos de los inconformes para controlar
+        el descontento. El mensaje del virrey fue muy claro: “…deben saber
+        los súbditos del gran monarca que ocupa el trono de España,
+        que nacieron para callar y obedecer y no para discurrir ni opinar
+        en los altos asuntos del gobierno”.
+    </string>
+    <string name="legadovirreina">
+        El legado novohispano forma parte de nuestra cultura actual.
+        Por legado entendemos aquellas costumbres, actividades, objetos,
+        ideas y creencias que son parte de los valores y la forma de
+        vida, y que pasan de una generación a otra.
+        Los españoles introdujeron en Nueva España la técnica árabe
+        de la cerámica, que prosperó especialmente en la ciudad de
+        Puebla, donde además recibió la influencia asiática de las porcelanas
+        traídas de Filipinas. En la actualidad, la talavera, como se
+        llamó a este tipo de cerámica, aún es muy apreciada y se considera
+        de gran valor.
+        También el legado virreinal puede apreciarse en nuestro gobierno,
+        pues de este periodo proviene el ayuntamiento, institución
+        que en la actualidad existe en todas las ciudades y cabeceras
+        municipales del país, con excepción de la ciudad de México.
+        La estructura y traza de varias ciudades actuales se originaron
+        durante el Virreinato, cuando éstas se construían siguiendo
+        el modelo de las ciudades europeas de la época; por eso, Saltillo,
+        Oaxaca y Puebla, entre otras, tienen ese diseño.
+        Otros ejemplos heredados de la época virreinal corresponden
+        al arte. Es el caso de la arquitectura de esos años, que puede
+        apreciarse en la actualidad en los conventos, templos y edificios
+        civiles de aquella época. Algunos están decorados al estilo
+        barroco
+        mexicano, el cual era muy expresivo para generar diversos
+        sentimientos, como la piedad, la fe o la alegría.
+        El barroco también se manifestó en la pintura, la escultura, la
+        música y la literatura. En la pintura y la escultura se representaba
+        a personajes y santos ricamente decorados con láminas de oro.
+        En la literatura destacaron escritores como Sor Juana Inés de
+        la Cruz y Carlos de Sigüenza y Góngora; en la música, Manuel
+        de Sumaya y José de Torres; en la pintura, Miguel Cabrera y Juan
+        Correa.
+        Otro ejemplo del legado del periodo virreinal es su influencia
+        en la comida, como es el caso del mole que se elabora con productos
+        provenientes de Europa, Asia y varias regiones de nuestro
+        país.
+        Es así que la riqueza cultural de México recibió un legado
+        virreinal, además de una importante herencia mesoamericana,
+        que en la actualidad nos unifica como nación.
+    </string>
+    <string name="aporteasiatico">
+        Los primeros africanos que llegaron a Nueva España eran originarios
+        de lo que hoy es Sudán, Angola y Congo, entre otros lugares
+        de África. Eran esclavos de los españoles y formaron parte
+        de las expediciones de conquista. Posteriormente, fueron utilizados
+        como arrieros para el servicio doméstico en las ciudades
+        y, principalmente, para trabajar en las minas.
+        A los africanos que escapaban de las propiedades de sus amos
+        se les conoció como cimarrones; algunos fundaron poblaciones,
+        como Gaspar Yanga, a quien se le debe el nombre del municipio
+        de Yanga, en el actual estado de Veracruz.
+        Este grupo social llegó a América con una riqueza cultural
+        que se manifestaba en sus cuentos, proverbios, juegos, música,
+        bailes, cocina, religiosidad y creencias, por lo que aportó diversos
+        elementos a la cultura novohispana, como los ritmos chuchumbé
+        y sacamandú; además del uso de instrumentos musicales,
+        como la marimba, los tambores y la charrasca (elaborada
+        con una quijada de burro con los dientes flojos). En cuanto al
+        lenguaje, hay vocablos de herencia africana que hasta la fecha
+        Litografía de un músico veracruzano con
+        raíces africanas.
+        Las aportaciones de la cultura africana se adaptaron a varios
+        ámbitos de la vida novohispana, como este tambor del ejército
+        independentista del siglo xix.
+        se emplean en diversas regiones, entre ellos,
+        chamuco, cafre, cambujo o chamba.
+        Como muchos criollos novohispanos fueron
+        cuidados por nanas esclavas, quienes influyeron
+        directamente en su educación temprana
+        con sus canciones de cuna, cuentos y la manera
+        como los mimaban inculcándoles cierta sensibilidad
+        y valores propios de su cultura.
+        Las tradiciones de los africanos se fueron
+        mezclando con las de españoles e indígenas,
+        generando nuevas manifestaciones culturales
+        que ya eran propias de los novohispanos, por
+        lo que en la actualidad es difícil encontrar rasgos intactos de las
+        diferentes culturas africanas que llegaron en esa época.
+        Otro aporte a la cultura virreinal fue la influencia asiática, que
+        llegó a Nueva España por medio de los galeones que viajaban
+        de Manila, Filipinas, al puerto de Acapulco. Partiendo de Nueva
+        España, los españoles lograron llegar a Asia y establecieron una
+        colonia en Filipinas; a partir de entonces, esta zona empezó a
+        recibir comerciantes chinos. El galeón que partía de Manila rumbo
+        al puerto de Acapulco era conocido como la Nao de China y
+        transportaba una gran variedad de productos asiáticos, como
+        especias, esencias, plantas medicinales, sedas, perlas, piedras
+        preciosas, porcelana, marfiles, frutas (como los mangos), además
+        de esclavos asiáticos.
+        Las personas y los artículos que llegaron de Asia influyeron en
+        el arte, las costumbres y la elaboración de muebles que utilizaron
+        los novohispanos; en Michoacán fueron imitadas las lacas chinas
+        creando hermosas cajoneras y baúles locales que se aprecian hasta
+        nuestros días. También se hicieron versiones novohispanas de
+        los biombos japoneses; además los jarrones y las vajillas asiáticas
+        inspiraron la cerámica poblana de talavera. El uso de los fuegos
+        artificiales, de origen chino, se hizo indispensable en todas las
+        festividades novohispanas y en la actualidad se sigue conservando
+        su uso.
+        La herencia asiática que nos legó el Virreinato también se
+        advierte en el uso de palabras como paliacate; en diversiones
+        como la pelea de gallos, o en personajes como la “china poblana”,
+        quien, cuenta la leyenda, era una pequeña princesa de las
+        remotas tierras del Gran Mogol o India, llamada Mirrah, secuestrada
+        por piratas, quienes la vendieron en el mercado de Manila,
+        donde la compraron y llevaron a tierras novohispanas. Pasó su
+        vida en Puebla de los Ángeles con el nombre de Catarina de San
+        Juan, donde se dice que su cultura y particular modo de vestir
+        dieron origen al tradicional traje de la china poblana.
+    </string>
+
+    <string name="title_activity_tema">TemaActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navegacion">Navegacion</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
