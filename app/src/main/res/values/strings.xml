@@ -1552,11 +1552,138 @@
 
     <!-- La independencia de México   -->
     <string name="anteindependencia">
+        A principios del siglo xix, la población de Nueva España vivía
+        una difícil situación económica y social, que se había agravado
+        por las llamadas reformas borbónicas que generaron descontento
+        en los distintos grupos sociales novohispanos. A estos
+        problemas se sumó la invasión de Napoleón Bonaparte a España,
+        la destitución de su rey, Fernando VII, en 1808, y el pensamiento
+        ilustrado, por lo que las causas del movimiento de
+        Independencia que inició en 1810, se originaron tanto en Nueva
+        España como en Europa.
 
+        El pensamiento ilustrado
+        En los siglos xvii y xviii surgieron críticas contra los gobiernos
+        regidos por reyes en Europa. A la vez, se difundía una nueva forma
+        de pensamiento conocida como Ilustración, la cual se caracterizaba
+        por el uso y la difusión del conocimiento científico y la
+        idea de que los fenómenos naturales y los problemas sociales
+        debían explicarse con base en la razón y no en las creencias religiosas.
+        Los partidarios de esas ideas, conocidos como ilustrados,
+        difundieron su pensamiento a través de diversos textos que
+        circularon tanto en Europa como en América.
+        Los pensadores ilustrados estaban en favor de la libertad y
+        de la igualdad de todas las personas ante la ley, además querían
+        acabar con los privilegios de los reyes, la nobleza y la Iglesia.
+        Consideraban que la mejor forma de organización política era
+        la republicana, en la que el gobierno se divide en tres poderes:
+        ejecutivo, legislativo y judicial; los ciudadanos eligen a sus representantes
+        para que establezcan leyes que todos deben obedecer;
+        los cargos del gobierno no se heredan, y las autoridades
+        sólo gobiernan por un tiempo establecido.
+
+        Reformas borbónicas
+        Hacia finales del siglo xviii, España aplicó las reformas borbónicas
+        en sus territorios americanos. Algunas de éstas fueron: el
+        aumento del tributo a los indígenas, la creación de nuevos impuestos,
+        la división del territorio en intendencias, la restricción
+        de la autoridad del virrey, la reducción del número de criollos
+        (hijos de españoles nacidos en América) en la Real Audiencia y
+        la disminución de órdenes religiosas.
+        Estas medidas privilegiaron aún más a los españoles y provocaron
+        el descontento de otros grupos sociales, en especial el de
+        los criollos; por eso, hacia principios del siglo xix ellos serían los
+        principales impulsores del movimiento de Independencia.
+        Además, España estaba en guerra contra Francia e Inglaterra,
+        por lo que necesitó recursos económicos para sostenerla y recurrió
+        a sus posesiones americanas para obtenerlos. Para ello, obligó a la
+        Iglesia novohispana y a sus habitantes más adinerados a otorgarle
+        préstamos, confiscó propiedades de algunas órdenes religiosas e
+        impulsó la actividad minera.
     </string>
     <string name="napoleon">
-
+        En 1789, por influencia de la Ilustración, entre otras causas, se
+        inició la Revolución francesa y la monarquía fue reemplazada
+        por un gobierno republicano. Sin embargo, en 1804 Napoleón
+        Bonaparte reemplazó la República en Francia, se proclamó emperador
+        e inició varios ataques contra otros reinos de Europa;
+        estos conflictos fueron llamados guerras napoleónicas.
+        En enero de 1808, el ejército napoleónico invadió España.
+        Al someterla, Napoleón obligó al rey Carlos IV y a su heredero,
+        Fernando VII, a renunciar a la Corona y en su lugar nombró a su
+        hermano José Bonaparte.
+        Esto significó que las posesiones españolas en América, entre
+        ellas Nueva España, ya no tenían un rey reconocido por su pueblo,
+        sino un gobernante impuesto por la fuerza. Estos acontecimientos
+        influyeron para que un sector de la población novohispana
+        propusiera la separación de esa España, gobernada por los
+        franceses, para mantenerse leales al rey Fernando VII.
     </string>
+    <string name="inicioindependencia">
+        Miguel Hidalgo, influido por las ideas de la Ilustración, estaba en
+        contra de la esclavitud y de las desigualdades sociales, y planteaba
+        que Nueva España debía ser autónoma. La madrugada
+        del 16 de septiembre de 1810, convocó a la gente del pueblo
+        de Dolores, en Guanajuato, a unírsele para apoyar el regreso de
+        Fernando VII y destituir a la autoridad virreinal, ya que en ese
+        momento no se buscaba propiamente la independencia, sino
+        sólo dejar de depender de España mientras ésta fuera ocupada
+        por el ejército francés.
+        Para que se unieran a la lucha, Hidalgo logró atraer a peones,
+        mineros, campesinos, artesanos, indígenas y mestizos, quienes
+        se armaron con hondas, palos, machetes e instrumentos de labranza,
+        y formaron un improvisado ejército insurgente, llamado
+        así porque fue un grupo de personas que se declararon en contra
+        de las autoridades y luchaban para cambiarlas. La mayoría
+        carecía de instrucción militar, aunque bajo el liderazgo de Allende
+        se contó con tropas disciplinadas que inicialmente formaron
+        el núcleo del levantamiento armado.
+        El ejército insurgente, encabezado por Hidalgo y Allende, inició
+        su camino rumbo a la ciudad de México, donde residían los
+        poderes de Nueva España. Al llegar a la ciudad de Guanajuato,
+        exigieron a las autoridades que se rindieran, pero éstas se encerraron
+        con los españoles ricos en la alhóndiga de la ciudad, llamada
+        de Granaditas, para defenderse. Los insurgentes tomaron
+        el edificio, mataron a quienes se habían refugiado allí y saquearon
+        la ciudad durante dos días, en los cuales varios habitantes
+        de origen español fueron asesinados sin que Hidalgo y Allende
+        pudieran evitarlo.
+        Cerca de Valladolid, Hidalgo le encomendó a José María Morelos
+        levantar en armas el sur y tomar Acapulco, pues tener el
+        control de un puerto les permitiría comunicarse con el exterior;
+        mientras tanto en otros lugares se habían iniciado más
+        revueltas.
+        Los insurgentes continuaron su marcha hacia la ciudad de
+        México, y en el monte de Las Cruces (en el actual Estado de México)
+        se enfrentaron a las tropas realistas enviadas por el virrey
+        (llamadas así porque defendían los intereses del rey español), a
+        las que vencieron.
+        Luego de esa batalla, la ciudad de México quedó desprotegida
+        y Allende propuso que tomaran la capital, pero Hidalgo se negó.
+        Tal vez consideró que no tenían armas ni hombres suficientes, o
+        que podría ser saqueada como Guanajuato, por lo que ordenó la
+        retirada; fueron alcanzados por el ejército realista que les causó
+        muchas muertes, de modo que se dispersaron y varios de sus
+        seguidores abandonaron el movimiento.
+        Después de este episodio, los insurgentes se dividieron en
+        dos grupos: uno quedó al mando de Hidalgo y el otro lo encabezó
+        Allende. Las diferencias entre estos dos líderes aumentarían
+        y se perdería la unidad del ejército insurgente. Más tarde, ambos
+        grupos se reunieron en Guadalajara, donde enfrentaron al ejército
+        realista en Puente de Calderón y fueron derrotados.
+        Los líderes del movimiento marcharon hacia el norte para
+        comprar armas en Estados Unidos pero fueron apresados en
+        Coahuila, juzgados y condenados a muerte en Chihuahua. El 26
+        de junio de 1811, Allende, Aldama y otros jefes insurgentes murieron
+        fusilados.
+        Tras un mes de juicio Hidalgo corrió la misma suerte. Como
+        advertencia a otros rebeldes, las cabezas de estos líderes fueron
+        colocadas en jaulas y exhibidas en las esquinas de la Alhóndiga
+        de Granaditas. La guerra no terminó ahí, pues a Hidalgo y
+        Allende los sucedieron otros jefes insurgentes que retomaron
+        su ideología en favor de la libertad.
+    </string>
+
 
     <string name="title_activity_tema">TemaActivity</string>
 
