@@ -21,6 +21,7 @@
         </activity>
         <activity android:name=".BloqueActivity" />
         <activity android:name=".TemaActivity" />
+        <activity android:name=".ContenidoActivity"></activity>
     </application>
 
 </manifest>
