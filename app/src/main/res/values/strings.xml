@@ -19,28 +19,6 @@
         con abundantes recursos naturales, la habitaban hasta que éstos se agotaban y entonces partían a otro sitio
         en busca de nuevos recursos.
     </string>
-    <string name="grupos">
-        Se sabe poco acerca de los primeros pobladores del actual
-        territorio mexicano, ya que para investigarlos sólo se cuenta
-        con restos de viviendas, de animales y de seres humanos
-        (cráneos, esqueletos y dientes), algunos utensilios de piedra y
-        hueso, y pinturas rupestres que han servido como fuentes de
-        información.
-        Los principales descubrimientos de los primeros grupos humanos
-        que se han encontrado en el actual territorio mexicano
-        están en El Cedral, San Luis Potosí, en Tepexpan y en Santa Isabel
-        Ixtapan, Estado de México, y en el Peñón de los Baños, Distrito
-        Federal.
-        La información que aportan estos restos materiales permite
-        saber que los pobladores nómadas de aquella época vivían en
-        grupos de menos de cien integrantes; se alimentaban de animales
-        que cazaban y pescaban, así como de plantas y frutos que
-        recolectaban. También se sabe que usaban el fuego.
-        En sus diferentes actividades, estos grupos utilizaban agujas
-        hechas de hueso, navajas, hachas y otros instrumentos tallados
-        en madera y en piedra, así como cuerdas y redes, y se cubrían
-        con pieles de animales.
-    </string>
     <string name="agricultura">
         En México, el cultivo del maíz se inició alrededor del año 5000 a. C.
         Probablemente en un principio las mujeres y los niños aprendieron
@@ -135,7 +113,7 @@
         y los cultivos, sobre todo eran considerados espíritus que daban
         vida a todas las criaturas del universo.
     </string>
-    <string name="pintura_rupeste">
+    <string name="pinturarupeste">
         En algunas regiones del actual territorio mexicano, como Aguascalientes,
         Morelos, Guerrero y principalmente Baja California,
         varios grupos nómadas hicieron pinturas rupestres, llamadas así
@@ -161,6 +139,9 @@
         lo demuestra la adoración al dios Centéotl entre los mexicas, o
         historias como el Popol Vuh, entre los mayas, que narra cómo los
         dioses crearon la humanidad con masa de maíz.
+    </string>
+    <string name="herramientascaza">
+
     </string>
     <string name="olmeca">
         Durante el periodo Preclásico se desarrolló la civilización olmeca,
@@ -656,6 +637,9 @@
         fin de satisfacer las necesidades cotidianas y para usarse
         durante los rituales.
     </string>
+    <string name="juegopelota">
+
+    </string>
 
 
     <!-- La conquista y el virreinato-->
@@ -739,7 +723,7 @@
         lugar donde se hallaban, mientras que la brújula les ayudaba a
         orientarse y saber en qué dirección navegar.
     </string>
-    <string name="contactos">
+    <string name="contactosespana">
         A finales del siglo xv en el reino de España, el marino genovés
         Cristóbal Colón planeó dar la vuelta al mundo para llegar a India
         y conseguir especias, pues entonces ya se sabía que la Tierra es
@@ -2077,6 +2061,12 @@
         que vender una parte del territorio nacional era una traición
         a la patria.
     </string>
+    <string name="imperiomexicano">
+
+    </string>
+    <string name="guerrapasteles">
+
+    </string>
     <string name="guerraconeua">
         Una vez que Texas se incorporó a Estados Unidos, este país buscó extender
         sus dominios hasta las costas del Pacífico. Para conseguirlo propuso
@@ -2123,6 +2113,53 @@
         la mitad de su territorio representaron un gran golpe para México.
         Durante los años siguientes el país vivió una etapa de gran desilusión
         y caos político.
+    </string>
+    <string name="batallapuebla">
+
+    </string>
+    <string name="batallachaputepec">
+
+    </string>
+    <string name="campoyciudad">
+
+    </string>
+    <string name="caminobandidos">
+
+    </string>
+    <string name="benitojuarez">
+
+    </string>
+    <string name="liberalesconservadores">
+
+    </string>
+    <string name="revolucionayutla">
+
+    </string>
+    <string name="constitucion1">
+
+    </string>
+    <string name="guerrareforma">
+
+    </string>
+    <string name="situacioneconomica">
+
+    </string>
+    <string name="restauracionrepublica">
+
+    </string>
+
+    <!-- La Revolución Mexicana  -->
+    <string name="porfiriato">
+
+    </string>
+    <string name="revolucionmexicana">
+
+    </string>
+    <string name="constitucion2">
+
+    </string>
+    <string name="culturarevolucionaria">
+
     </string>
 
 
