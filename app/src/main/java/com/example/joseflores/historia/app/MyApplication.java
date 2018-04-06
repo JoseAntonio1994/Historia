@@ -3,6 +3,7 @@ package com.example.joseflores.historia.app;
 import android.app.Application;
 
 import com.example.joseflores.historia.modelos.Bloque;
+import com.example.joseflores.historia.modelos.Contenido;
 import com.example.joseflores.historia.modelos.Tema;
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -18,7 +19,7 @@ import io.realm.RealmResults;
 
 public class MyApplication extends Application {
 
-    //public static AtomicInteger ContenidoID = new AtomicInteger();
+    public static AtomicInteger ContenidoID = new AtomicInteger();
     public static AtomicInteger TemasID = new AtomicInteger();
     public static AtomicInteger BloquesID = new AtomicInteger();
 
@@ -29,7 +30,7 @@ public class MyApplication extends Application {
         setUpRealmConfig();
 
         Realm realm = Realm.getDefaultInstance();
-        //ContenidoID = getIdByTable(realm, Contenido.class);
+        ContenidoID = getIdByTable(realm, Contenido.class);
         TemasID = getIdByTable(realm, Tema.class);
         BloquesID = getIdByTable(realm, Bloque.class);
         realm.close();

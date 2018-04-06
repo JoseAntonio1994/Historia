@@ -16,7 +16,7 @@
             android:orientation="vertical" >
 
             <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbar"
+                android:id="@+id/tooContenido"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?attr/colorPrimary"
@@ -35,11 +35,11 @@
                 android:layout_marginTop="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/toolbar"
+                app:layout_constraintTop_toBottomOf="@+id/tooContenido"
                 app:srcCompat="@drawable/ic_launcher_background" />
 
             <EditText
-                android:id="@+id/contenido"
+                android:id="@+id/editcontenido"
                 android:layout_width="347dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
