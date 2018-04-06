@@ -14,9 +14,9 @@ public class Contenido extends RealmObject{
 
     @PrimaryKey
     private int id;
-    @Required
+
     private String urlContenido;
-    @Required
+
     private int recContenido;
 
     public Contenido(){}

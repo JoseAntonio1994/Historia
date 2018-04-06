@@ -55,6 +55,7 @@ public class TemaActivity extends AppCompatActivity implements RealmChangeListen
         this.setTitle(bloque.getNombre());
 
         listView = (ListView) findViewById(R.id.lista_temas2);
+        listView.setOnItemClickListener(this);
         adapter = new TemaAdapter(this, temas, R.layout.temas_item);
         listView.setAdapter(adapter);
     }
@@ -67,8 +68,8 @@ public class TemaActivity extends AppCompatActivity implements RealmChangeListen
     }
 
     @Override
-    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
+    public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+        Toast.makeText(getApplicationContext(), String.valueOf(position), Toast.LENGTH_SHORT).show();
     }
 
     private void nuevosTemas(List<Tema> crearTemas) {
