@@ -1,5 +1,6 @@
 package com.example.joseflores.historia;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -24,6 +25,7 @@ import com.example.joseflores.historia.modelos.Bloque;
 import com.example.joseflores.historia.modelos.Niveles;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
@@ -102,7 +104,9 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
                     @Override
                     public void onClick(View v) {
                         String clave = dbRef.push().getKey();
-                        Toast.makeText(getApplicationContext(), "Se pulso el tema " + clave, Toast.LENGTH_SHORT).show();
+                        Intent i = new Intent(BloqueActivity.this, TemaActivity.class);
+                        i.putExtra("clave", clave);
+                        startActivity(i);
                     }
                 });
             }
@@ -128,6 +132,7 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
         super.onStop();
         adapter.stopListening();
     }
+
 
     @Override
     public void onBackPressed() {
