@@ -10,44 +10,45 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.joseflores.historia.Adaptadores.BloqueAdapter;
+import com.bumptech.glide.Glide;
 import com.example.joseflores.historia.modelos.Bloque;
+import com.example.joseflores.historia.modelos.Niveles;
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 
-import java.util.ArrayList;
-import java.util.List;
 
-import io.realm.Realm;
-import io.realm.RealmChangeListener;
-import io.realm.RealmResults;
+public class BloqueActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
-public class BloqueActivity extends AppCompatActivity implements RealmChangeListener<RealmResults<Bloque>>,
-        AdapterView.OnItemClickListener, NavigationView.OnNavigationItemSelectedListener{
-
-    private Realm realmBD;
     private RecyclerView recycler;
-    private RecyclerView.Adapter adapter;
+    private FirebaseRecyclerAdapter<Bloque, BloqueAdapter> adapter;
+    private DatabaseReference dbRef;
+    private Query query;
+    private FirebaseRecyclerOptions<Bloque> options;
     private RecyclerView.LayoutManager layoutManager;
-    private RealmResults<Bloque> bloques;
-
-    private List<Bloque> bloques1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navegacion);
 
-        realmBD = Realm.getDefaultInstance();
-        //nuevoBloque(crearBloques());
-        bloques = realmBD.where(Bloque.class).findAll();
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.barra_bloques);
         setSupportActionBar(toolbar);
+
+        inicialiceSreen();
+        inicialiceQuery();
+        inicialiceFirebaseOptions();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -58,50 +59,74 @@ public class BloqueActivity extends AppCompatActivity implements RealmChangeList
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        recycler = (RecyclerView) findViewById(R.id.bloques_inicio);
-        recycler.setHasFixedSize(true);
 
+
+
+
+    }
+
+    private void inicialiceSreen() {
+        recycler = (RecyclerView) findViewById(R.id.bloques_inicio);
         layoutManager = new LinearLayoutManager(this);
         recycler.setLayoutManager(layoutManager);
+        recycler.setHasFixedSize(true);
+        dbRef = FirebaseDatabase.getInstance().getReference(Niveles.EPOCAS);
+    }
 
-       adapter = new BloqueAdapter(this, bloques, R.layout.bloques_item);
-       recycler.setAdapter(adapter);
+    private void inicialiceQuery() {
+        query = FirebaseDatabase
+                .getInstance()
+                .getReference()
+                .child(Niveles.EPOCAS)
+                .limitToLast(50);
+    }
+
+    private void inicialiceFirebaseOptions(){
+        options = new FirebaseRecyclerOptions.Builder<Bloque>()
+                .setQuery(query, Bloque.class)
+                .build();
+        setupAdapter();
+        recycler.setAdapter(adapter);
+    }
+
+    private void setupAdapter() {
+        adapter = new FirebaseRecyclerAdapter<Bloque, BloqueAdapter>(options) {
+            @Override
+            protected void onBindViewHolder(@NonNull final BloqueAdapter holder, final int position, @NonNull Bloque model) {
+                Glide.with(BloqueActivity.this).load(model.getImagenEpoca())
+                        .error(R.drawable.carga)
+                        .into(holder.imagenBloque);
+                holder.nombreBloque.setText(model.getNombreEpoca());
+
+                holder.temaSiguiente.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        String clave = dbRef.push().getKey();
+                        Toast.makeText(getApplicationContext(), "Se pulso el tema " + clave, Toast.LENGTH_SHORT).show();
+                    }
+                });
+            }
+
+            @NonNull
+            @Override
+            public BloqueAdapter onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+                View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.bloques_item, parent, false);
+
+                return new BloqueAdapter(view);
+            }
+        };
     }
 
     @Override
-    public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-        //Intent intent = new Intent(BloqueActivity.this, TemaActivity.class);
-        //intent.putExtra("id", bloques.get(position).getId());
-        //startActivity(intent);
-        Toast.makeText(getApplicationContext(), "Click", Toast.LENGTH_SHORT).show();
+    protected void onStart() {
+        super.onStart();
+        adapter.startListening();
     }
 
     @Override
-    public void onChange(RealmResults<Bloque> bloques) {
-
-    }
-
-
-    private void nuevoBloque(List<Bloque> crearBloques) {
-        realmBD.beginTransaction();
-        realmBD.insert(crearBloques);
-        realmBD.commitTransaction();
-    }
-
-    private List<Bloque> crearBloques(){
-        bloques1 = new ArrayList<Bloque>(){{
-            add(new Bloque("https://www.mexicodesconocido.com.mx/sites/default/files/styles/adaptive/public/nodes/4694/comercio-prehispanico.jpg",
-                    "México prehispánico"));
-            add(new Bloque("http://de10.com.mx/sites/default/files/styles/detalle_nota/public/2016/11/30/portada_cortes.jpg?itok=porYkDv7",
-                    "La conquista de México y el virreinato"));
-            add(new Bloque("http://1.bp.blogspot.com/-_sDlzONZjPQ/VEkrgk8XfbI/AAAAAAAABH0/qiPeneEKS5E/s1600/independencia-mexico-mural-fuerte-san-diego-acapulco.jpg",
-                    "La independencia de México"));
-            add(new Bloque("https://pbs.twimg.com/media/CzUwBTbUUAEXawB.jpg",
-                    "México independiente"));
-            add(new Bloque("https://lahistoriamexicana.mx/wp-content/uploads/revolucion_mexicana-660x330.jpg",
-                    "La Revolucion Mexicana"));
-        }};
-        return bloques1;
+    protected void onStop() {
+        super.onStop();
+        adapter.stopListening();
     }
 
     @Override
@@ -157,5 +182,20 @@ public class BloqueActivity extends AppCompatActivity implements RealmChangeList
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public static class BloqueAdapter extends RecyclerView.ViewHolder{
+        ImageView imagenBloque;
+        TextView nombreBloque;
+        ImageView temaSiguiente;
+        ImageView actSiguiente;
+
+        public BloqueAdapter(View view) {
+            super(view);
+            imagenBloque = (ImageView) view.findViewById(R.id.imagenBloque);
+            nombreBloque = (TextView) view.findViewById(R.id.nombreBloque);
+            temaSiguiente = (ImageView) view.findViewById(R.id.imageSiguiente);
+            actSiguiente = (ImageView) view.findViewById(R.id.imageActividad);
+        }
     }
 }

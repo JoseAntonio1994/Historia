@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "342023312242",
+    "firebase_url": "https://historia-8421b.firebaseio.com",
+    "project_id": "historia-8421b",
+    "storage_bucket": "historia-8421b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342023312242:android:de02b931ffb8efc2",
+        "android_client_info": {
+          "package_name": "com.example.joseflores.historia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342023312242-gctsjso18omgeb5enlgk6uf9ebdl1ndj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joseflores.historia",
+            "certificate_hash": "2198de63fe0a14a3e34a6d78bfc1433428961e5b"
+          }
+        },
+        {
+          "client_id": "342023312242-9tr71sbha7v38t8t9k779qovruaj2hko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvuH1AT3Xba_fl647jvLnTxc0BPqVm2TU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342023312242-9tr71sbha7v38t8t9k779qovruaj2hko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

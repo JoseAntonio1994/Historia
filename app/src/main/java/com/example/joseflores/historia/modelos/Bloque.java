@@ -1,61 +1,35 @@
 package com.example.joseflores.historia.modelos;
 
-import com.example.joseflores.historia.app.MyApplication;
-
-import io.realm.RealmList;
-import io.realm.RealmObject;
-import io.realm.annotations.PrimaryKey;
-import io.realm.annotations.Required;
 
 /**
  * Created by JoseFlores on 13/03/2018.
  */
 
-public class Bloque extends RealmObject {
-
-    @PrimaryKey
-    private int id;
-    @Required
-    private String urlImagen;
-    @Required
-    private String nombre;
-
-    private RealmList<Tema> listTemas;
+public class Bloque {
+    private String imagenEpoca;
+    private String nombreEpoca;
 
     public Bloque(){}
 
     public Bloque(String urlImagen, String nombre) {
-        this.id = MyApplication.BloquesID.incrementAndGet();
-        this.urlImagen = urlImagen;
-        this.nombre = nombre;
-        this.listTemas = new RealmList<Tema>();
+        this.imagenEpoca = urlImagen;
+        this.nombreEpoca = nombre;
     }
 
-    public int getId() {
-        return id;
+    public String getImagenEpoca() {
+        return imagenEpoca;
     }
 
-    public String getUrlImagen() {
-        return urlImagen;
+    public void setImagenEpoca(String imagenEpoca) {
+        this.imagenEpoca = imagenEpoca;
     }
 
-    public void setUrlImagen(String urlImagen) {
-        this.urlImagen = urlImagen;
+    public String getNombreEpoca() {
+        return nombreEpoca;
     }
 
-    public String getNombre() {
-        return nombre;
+    public void setNombreEpoca(String nombreEpoca) {
+        this.nombreEpoca = nombreEpoca;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public RealmList<Tema> getListTemas() {
-        return listTemas;
-    }
-
-    public void setListTemas(RealmList<Tema> listTemas) {
-        this.listTemas = listTemas;
-    }
 }

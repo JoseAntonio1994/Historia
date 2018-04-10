@@ -529,7 +529,7 @@
         números con 20 signos. Los sacerdotes lo utilizaban
         para determinar las fechas de acontecimientos
         importantes como sembrar, partir a la guerra, poner
-        nombre a los niños el día de su nacimiento o casarse.
+        nombreEpoca a los niños el día de su nacimiento o casarse.
         Entre los mexicas se le conoció como tonalpohualli y entre
         los zapotecas como piye. Este calendario es considerado el
         más antiguo de Mesoamérica.
@@ -1062,7 +1062,7 @@
         tuvieron en su país contra los musulmanes, a quienes llamaban
         “moros”, pensaron que iban a la batalla guiados por un
         santo llamado Santiago Matamoros y consideraban que vencían
-        a sus enemigos en nombre de su dios.
+        a sus enemigos en nombreEpoca de su dios.
         Tanto para los españoles como para los mexicas, el triunfo en
         la guerra determinaba qué grupo debía mandar sobre el otro, y
         ambos consideraban que la victoria la obtenían gracias al apoyo
@@ -1145,7 +1145,7 @@
         Con el paso del tiempo, la convivencia entre españoles, indígenas
         y africanos dio origen al mestizaje y a las castas. Los
         hijos de padres de distintos grupos sociales y étnicos formaban
-        las castas. Según el origen de los padres se daba un nombre diferente
+        las castas. Según el origen de los padres se daba un nombreEpoca diferente
         a cada casta; por ejemplo, los hijos de un español y una
         indígena eran llamados mestizos, y los de un español y una africana,
         mulatos.
@@ -1549,7 +1549,7 @@
         y, principalmente, para trabajar en las minas.
         A los africanos que escapaban de las propiedades de sus amos
         se les conoció como cimarrones; algunos fundaron poblaciones,
-        como Gaspar Yanga, a quien se le debe el nombre del municipio
+        como Gaspar Yanga, a quien se le debe el nombreEpoca del municipio
         de Yanga, en el actual estado de Veracruz.
         Este grupo social llegó a América con una riqueza cultural
         que se manifestaba en sus cuentos, proverbios, juegos, música,
@@ -1606,7 +1606,7 @@
         remotas tierras del Gran Mogol o India, llamada Mirrah, secuestrada
         por piratas, quienes la vendieron en el mercado de Manila,
         donde la compraron y llevaron a tierras novohispanas. Pasó su
-        vida en Puebla de los Ángeles con el nombre de Catarina de San
+        vida en Puebla de los Ángeles con el nombreEpoca de Catarina de San
         Juan, donde se dice que su cultura y particular modo de vestir
         dieron origen al tradicional traje de la china poblana.
     </string>
@@ -1794,7 +1794,7 @@
         lo que grupos más pequeños se organizaron bajo diferentes liderazgos:
         Guadalupe Victoria peleó en algunas partes del actual
         estado de Veracruz, y Vicente Guerrero en el estado que hoy lleva
-        su nombre. El aislamiento de los insurgentes los obligó a usar
+        su nombreEpoca. El aislamiento de los insurgentes los obligó a usar
         la guerra de guerrillas para combatir a los realistas y permitió la
         supervivencia del movimiento insurgente hasta la consumación
         de la Independencia.
@@ -2197,7 +2197,7 @@
         pudieron radicarse en el país, consagrandose al comercio, la pequeña
         industria, el artesanado e ingresando en el ejército nacional.
 
-        En 1827, se había celebrado un convenio con Francia bajo el nombre
+        En 1827, se había celebrado un convenio con Francia bajo el nombreEpoca
         de "Declaraciones Provisionales", que sentaban las bases para el
         futuro arreglo de las relaciones entre ambos países.
 
@@ -2217,7 +2217,7 @@
         de Tacubaya, donde algunos oficiales del presidente Santa Anna en 1832 se
         habían comido unos pasteles sin pagar la cuenta, por lo cual exigía ser
         indemnizado. Ese fue el motivo a que el pueblo mexicano identificara a esta
-        guerra con Francia con el nombre de "Guerra de los Pasteles".
+        guerra con Francia con el nombreEpoca de "Guerra de los Pasteles".
 
         Al responder el Ministro de Relaciones a las reclamaciones francesas y no
         estar de acuerdo. En consecuencia Deffaudis, pidió sus pasaportes y abandonó
@@ -3018,7 +3018,9 @@
 
     <string name="title_activity_tema">TemaActivity</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Ruinas arqueologicas</string>
+    <string name="fechas_importantes">Fechas importantes</string>
+
     <string name="title_activity_navegacion">Navegacion</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>

@@ -1,36 +1,20 @@
 package com.example.joseflores.historia.modelos;
 
-import com.example.joseflores.historia.app.MyApplication;
-
-import io.realm.RealmList;
-import io.realm.RealmObject;
-import io.realm.annotations.PrimaryKey;
-import io.realm.annotations.Required;
-
 /**
  * Created by JoseFlores on 13/03/2018.
  */
 
-public class Tema extends RealmObject {
+public class Tema {
 
-    @PrimaryKey
-    private int id;
-    @Required
     private String urlImagen;
-    @Required
     private String nombre;
 
-
-    public Tema(){}
-
-    public Tema(String urlImagen, String nombre) {
-        this.id = MyApplication.TemasID.incrementAndGet();
-        this.urlImagen = urlImagen;
-        this.nombre = nombre;
+    public Tema() {
     }
 
-    public int getId() {
-        return id;
+    public Tema(String urlImagen, String nombre) {
+        this.urlImagen = urlImagen;
+        this.nombre = nombre;
     }
 
     public String getUrlImagen() {
@@ -48,5 +32,4 @@ public class Tema extends RealmObject {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
 }

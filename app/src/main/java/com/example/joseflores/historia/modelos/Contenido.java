@@ -1,23 +1,14 @@
 package com.example.joseflores.historia.modelos;
 
-import android.widget.ImageView;
-
-import io.realm.RealmObject;
-import io.realm.annotations.PrimaryKey;
-import io.realm.annotations.Required;
-
 /**
  * Created by JoseFlores on 06/04/2018.
  */
 
-public class Contenido extends RealmObject{
-
-    @PrimaryKey
-    private int id;
-
+public class Contenido {
     private String urlContenido;
-
     private int recContenido;
+    private int idTema;
+    private int idBloque;
 
     public Contenido(){}
 
@@ -26,8 +17,12 @@ public class Contenido extends RealmObject{
         this.recContenido = recContenido;
     }
 
-    public int getId() {
-        return id;
+    public int getIdTema() {
+        return idTema;
+    }
+
+    public int getIdBloque() {
+        return idBloque;
     }
 
     public String getUrlContenido() {
@@ -45,4 +40,5 @@ public class Contenido extends RealmObject{
     public void setRecContenido(int recContenido) {
         this.recContenido = recContenido;
     }
+
 }

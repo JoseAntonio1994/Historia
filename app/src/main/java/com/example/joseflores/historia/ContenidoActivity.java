@@ -5,8 +5,15 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.widget.EditText;
 import android.widget.ImageView;
+import com.example.joseflores.historia.modelos.Contenido;
+
 
 public class ContenidoActivity extends AppCompatActivity {
+
+    private int bloqueId;
+    private int temaId;
+    private String urlImagen, nombreTema;
+    private Contenido contenido;
 
     private ImageView imgContenido;
     private EditText ediContenido;
@@ -19,7 +26,13 @@ public class ContenidoActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.tooContenido);
         setSupportActionBar(toolbar);
 
-        imgContenido = (ImageView) findViewById(R.id.imagenContenido);
-        ediContenido = (EditText) findViewById(R.id.editcontenido);
+        if (getIntent().getExtras() != null){
+            bloqueId = getIntent().getExtras().getInt("bloqueId");
+            temaId = getIntent().getExtras().getInt("temaId");
+            urlImagen = getIntent().getExtras().getString("urlImagen");
+            nombreTema = getIntent().getExtras().getString("titulo");
+        }
+
     }
+
 }
