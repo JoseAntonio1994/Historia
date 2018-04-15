@@ -25,6 +25,7 @@ import com.example.joseflores.historia.modelos.Bloque;
 import com.example.joseflores.historia.modelos.Niveles;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -72,15 +73,14 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
         layoutManager = new LinearLayoutManager(this);
         recycler.setLayoutManager(layoutManager);
         recycler.setHasFixedSize(true);
-        dbRef = FirebaseDatabase.getInstance().getReference(Niveles.EPOCAS);
+        dbRef = FirebaseDatabase.getInstance().getReference().child(Niveles.EPOCAS);
     }
 
     private void inicialiceQuery() {
         query = FirebaseDatabase
                 .getInstance()
                 .getReference()
-                .child(Niveles.EPOCAS)
-                .limitToLast(50);
+                .child(Niveles.EPOCAS);
     }
 
     private void inicialiceFirebaseOptions(){
@@ -94,7 +94,7 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
     private void setupAdapter() {
         adapter = new FirebaseRecyclerAdapter<Bloque, BloqueAdapter>(options) {
             @Override
-            protected void onBindViewHolder(@NonNull final BloqueAdapter holder, final int position, @NonNull Bloque model) {
+            protected void onBindViewHolder(@NonNull final BloqueAdapter holder, final int position, @NonNull final Bloque model) {
                 Glide.with(BloqueActivity.this).load(model.getImagenEpoca())
                         .error(R.drawable.carga)
                         .into(holder.imagenBloque);
@@ -103,10 +103,11 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
                 holder.temaSiguiente.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        String clave = dbRef.push().getKey();
-                        Intent i = new Intent(BloqueActivity.this, TemaActivity.class);
-                        i.putExtra("clave", clave);
-                        startActivity(i);
+                        String clave = dbRef.getKey();
+                        Toast.makeText(BloqueActivity.this, clave, Toast.LENGTH_SHORT).show();
+                        //Intent i = new Intent(BloqueActivity.this, TemaActivity.class);
+                        //i.putExtra("clave", clave);
+                        //startActivity(i);
                     }
                 });
             }
@@ -146,17 +147,23 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch (item.getItemId()){
+            case R.id.action_settings:
+                return true;
+            case R.id.action_add:
+               // newBlock();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
 
-        return super.onOptionsItemSelected(item);
+
+    }
+
+    private void newBlock() {
+        Bloque bloque = new Bloque("http://indicepolitico.com/wp-content/uploads/2016/10/agricultura-prehispanica-01.png","Epoca prehispanica");
+        DatabaseReference newBlock = dbRef.push();
+        newBlock.setValue(bloque);
     }
 
     @Override
