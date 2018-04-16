@@ -1,11 +1,13 @@
 package com.example.joseflores.historia;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -20,7 +22,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 
-public class TemaActivity extends AppCompatActivity {
+public class TemaActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     private ListView listView;
     private FirebaseListAdapter<Tema> adapter;
@@ -104,6 +106,7 @@ public class TemaActivity extends AppCompatActivity {
                 .setQuery(query, Tema.class)
                 .build();
         setupAdapter();
+        listView.setOnItemClickListener(this);
         listView.setAdapter(adapter);
     }
 
@@ -131,4 +134,14 @@ public class TemaActivity extends AppCompatActivity {
         };
     }
 
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        Tema tema = (Tema) listView.getItemAtPosition(position);
+        Intent intent = new Intent(TemaActivity.this, ContenidoActivity.class);
+        intent.putExtra("temUID", tema.getUID());
+        intent.putExtra("epoUID", uidEpoca);
+        intent.putExtra("nomTema", tema.getNombreTema());
+        intent.putExtra("imgTema", tema.getImagenTema());
+        startActivity(intent);
+    }
 }

@@ -104,7 +104,6 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
                     @Override
                     public void onClick(View v) {
                         String clave = model.getUID();
-                        Toast.makeText(BloqueActivity.this, clave, Toast.LENGTH_SHORT).show();
                         Intent i = new Intent(BloqueActivity.this, TemaActivity.class);
                         i.putExtra("clave", clave);
                         i.putExtra("nombre", model.getNombreEpoca());

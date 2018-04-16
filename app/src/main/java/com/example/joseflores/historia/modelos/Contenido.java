@@ -5,32 +5,22 @@ package com.example.joseflores.historia.modelos;
  */
 
 public class Contenido {
-    private String urlContenido;
+    private String conUID;
     private int recContenido;
-    private int idTema;
-    private int idBloque;
 
     public Contenido(){}
 
-    public Contenido(String urlContenido, int recContenido) {
-        this.urlContenido = urlContenido;
+    public Contenido(String UID, int recContenido) {
+        this.conUID = UID;
         this.recContenido = recContenido;
     }
 
-    public int getIdTema() {
-        return idTema;
+    public String getConUID() {
+        return conUID;
     }
 
-    public int getIdBloque() {
-        return idBloque;
-    }
-
-    public String getUrlContenido() {
-        return urlContenido;
-    }
-
-    public void setUrlContenido(String urlContenido) {
-        this.urlContenido = urlContenido;
+    public void setConUID(String conUID) {
+        this.conUID = conUID;
     }
 
     public int getRecContenido() {
