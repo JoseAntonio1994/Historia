@@ -103,11 +103,12 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
                 holder.temaSiguiente.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        String clave = dbRef.getKey();
+                        String clave = model.getUID();
                         Toast.makeText(BloqueActivity.this, clave, Toast.LENGTH_SHORT).show();
-                        //Intent i = new Intent(BloqueActivity.this, TemaActivity.class);
-                        //i.putExtra("clave", clave);
-                        //startActivity(i);
+                        Intent i = new Intent(BloqueActivity.this, TemaActivity.class);
+                        i.putExtra("clave", clave);
+                        i.putExtra("nombre", model.getNombreEpoca());
+                        startActivity(i);
                     }
                 });
             }
@@ -151,7 +152,7 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
             case R.id.action_settings:
                 return true;
             case R.id.action_add:
-               // newBlock();
+               //newBlock();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -161,9 +162,15 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
     }
 
     private void newBlock() {
-        Bloque bloque = new Bloque("http://indicepolitico.com/wp-content/uploads/2016/10/agricultura-prehispanica-01.png","Epoca prehispanica");
-        DatabaseReference newBlock = dbRef.push();
-        newBlock.setValue(bloque);
+        String UID = getUID();
+        Bloque bloque = new Bloque(UID, "http://indicepolitico.com/wp-content/uploads/2016/10/agricultura-prehispanica-01.png","Epoca prehispanica");
+
+        dbRef.child(UID).setValue(bloque);
+    }
+
+    private String getUID(){
+        String urlArray[] = dbRef.push().toString().split("/");
+        return urlArray[urlArray.length - 1];
     }
 
     @Override

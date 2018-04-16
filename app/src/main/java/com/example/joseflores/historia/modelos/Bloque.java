@@ -6,6 +6,7 @@ package com.example.joseflores.historia.modelos;
  */
 
 public class Bloque {
+    private String UID;
     private String imagenEpoca;
     private String nombreEpoca;
 
@@ -14,6 +15,20 @@ public class Bloque {
     public Bloque(String urlImagen, String nombre) {
         this.imagenEpoca = urlImagen;
         this.nombreEpoca = nombre;
+    }
+
+    public Bloque(String UID, String imagenEpoca, String nombreEpoca) {
+        this.UID = UID;
+        this.imagenEpoca = imagenEpoca;
+        this.nombreEpoca = nombreEpoca;
+    }
+
+    public String getUID() {
+        return UID;
+    }
+
+    public void setUID(String UID) {
+        this.UID = UID;
     }
 
     public String getImagenEpoca() {

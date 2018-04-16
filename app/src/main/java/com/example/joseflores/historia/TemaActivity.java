@@ -3,6 +3,8 @@ package com.example.joseflores.historia;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -26,7 +28,8 @@ public class TemaActivity extends AppCompatActivity {
     private Query query;
     private FirebaseListOptions<Tema> options;
 
-    private String nodoEpoca;
+    private String uidEpoca;
+    private String nomEpoca;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,11 +39,11 @@ public class TemaActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         if (getIntent().getExtras() != null){
-            nodoEpoca = getIntent().getStringExtra("clave");
-            Toast.makeText(getApplicationContext(), nodoEpoca, Toast.LENGTH_SHORT).show();
+            uidEpoca = getIntent().getStringExtra("clave");
+            nomEpoca = getIntent().getStringExtra("nombre");
         }
 
-
+        this.setTitle(nomEpoca);
 
         inicialiceScreen();
         inicialiceQuery();
@@ -49,9 +52,39 @@ public class TemaActivity extends AppCompatActivity {
 
     private void inicialiceScreen() {
         listView = (ListView) findViewById(R.id.lista_temas2);
-        dbRef = FirebaseDatabase.getInstance().getReference(Niveles.EPOCAS);
+        dbRef = FirebaseDatabase.getInstance().getReference(Niveles.EPOCAS).child(uidEpoca).child(Niveles.TEMA);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.navegacion, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.action_add:
+                //nuevoTema();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+
+
+    }
+
+    private void nuevoTema() {
+        String UID = getUID();
+        Tema tema = new Tema(UID, "https://img.elcomercio.pe/files/article_content_ec_fotos/uploads/2017/11/07/5a01e0d1ceb7d.jpeg",
+                "Migrantes de Asia a América");
+        dbRef.child(UID).setValue(tema);
+    }
+
+    private String getUID(){
+        String urlArray[] = dbRef.push().toString().split("/");
+        return urlArray[urlArray.length - 1];
+    }
 
     @Override
     protected void onStart() {
@@ -79,7 +112,7 @@ public class TemaActivity extends AppCompatActivity {
                 .getInstance()
                 .getReference()
                 .child(Niveles.EPOCAS)
-                .child(nodoEpoca)
+                .child(uidEpoca)
                 .child(Niveles.TEMA)
                 .limitToLast(50);
     }
