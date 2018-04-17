@@ -1,22 +1,26 @@
 package com.example.joseflores.historia;
 
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import com.bumptech.glide.Glide;
 import com.example.joseflores.historia.modelos.Contenido;
 import com.example.joseflores.historia.modelos.Niveles;
-import com.firebase.ui.database.FirebaseListAdapter;
-import com.firebase.ui.database.FirebaseListOptions;
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 
 public class ContenidoActivity extends AppCompatActivity {
@@ -25,8 +29,11 @@ public class ContenidoActivity extends AppCompatActivity {
     private TextView ediContenido;
 
     private DatabaseReference mReference;
-    private FirebaseListAdapter<Contenido> adapter;
-    private FirebaseListOptions<Contenido> options;
+
+    private RecyclerView mRecycler;
+    private FirebaseRecyclerAdapter<Contenido, ContentAdapter> adapter;
+    private FirebaseRecyclerOptions<Contenido> options;
+    private RecyclerView.LayoutManager layoutManager;
 
     private String temaUID, epoUID;
     private String imgTema;
@@ -35,10 +42,15 @@ public class ContenidoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contenido);
+        setContentView(R.layout.recycler_content);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.tooContenido);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.tooContent);
         setSupportActionBar(toolbar);
+
+        mRecycler =(RecyclerView) findViewById(R.id.recycler_content);
+        layoutManager = new LinearLayoutManager(this);
+        mRecycler.setLayoutManager(layoutManager);
+        mRecycler.setHasFixedSize(true);
 
         imgContenido = (ImageView) findViewById(R.id.imagenContenido);
         ediContenido = (TextView) findViewById(R.id.editcontenido);
@@ -49,13 +61,13 @@ public class ContenidoActivity extends AppCompatActivity {
             imgTema = getIntent().getStringExtra("imgTema");
             nomTema = getIntent().getStringExtra("nomTema");
 
-            Glide.with(ContenidoActivity.this).load(imgTema).error(R.drawable.carga).into(imgContenido);
-
             this.setTitle(nomTema);
+
+            mReference = FirebaseDatabase.getInstance().getReference().child(Niveles.EPOCAS)
+                    .child(epoUID).child(Niveles.TEMA).child(temaUID).child(Niveles.CONTENIDO);
         }
 
-        mReference = FirebaseDatabase.getInstance().getReference().child(Niveles.EPOCAS)
-                     .child(epoUID).child(Niveles.TEMA).child(temaUID).child(Niveles.CONTENIDO);
+
 
         inicialiceFirebaseOptions();
 
@@ -63,18 +75,26 @@ public class ContenidoActivity extends AppCompatActivity {
     }
 
     private void inicialiceFirebaseOptions(){
-        options = new FirebaseListOptions.Builder<Contenido>()
-                .setLayout(R.layout.activity_contenido)
+        options = new FirebaseRecyclerOptions.Builder<Contenido>()
                 .setQuery(mReference, Contenido.class)
                 .build();
         setupAdapter();
+        mRecycler.setAdapter(adapter);
     }
 
     private void setupAdapter() {
-        adapter = new FirebaseListAdapter<Contenido>(options) {
+        adapter = new FirebaseRecyclerAdapter<Contenido, ContentAdapter>(options) {
             @Override
-            protected void populateView(View v, Contenido model, int position) {
-                Toast.makeText(getApplicationContext(), String.valueOf(model.getRecContenido()), Toast.LENGTH_SHORT).show();
+            protected void onBindViewHolder(@NonNull ContentAdapter holder, int position, @NonNull Contenido model) {
+                Glide.with(ContenidoActivity.this).load(model.getImgContenido()).error(R.drawable.carga).into(holder.imgContent);
+                holder.recContent.setText(getString(model.getRecContenido()));
+            }
+
+            @NonNull
+            @Override
+            public ContentAdapter onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+                View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.content_item, parent, false);
+                return new ContentAdapter(view);
             }
         };
     }
@@ -114,7 +134,8 @@ public class ContenidoActivity extends AppCompatActivity {
 
         Contenido con = new Contenido();
         con.setConUID(conUID);
-        con.setRecContenido(R.string.migrantes);
+        con.setImgContenido(imgTema);
+        con.setRecContenido(R.string.aporteasiatico);
 
         mReference.child(conUID).setValue(con);
     }
@@ -122,5 +143,17 @@ public class ContenidoActivity extends AppCompatActivity {
     private String getUID(){
         String urlArray[] = mReference.push().toString().split("/");
         return urlArray[urlArray.length - 1];
+    }
+
+    public static class ContentAdapter extends RecyclerView.ViewHolder{
+
+        ImageView imgContent;
+        TextView recContent;
+
+        public ContentAdapter(View itemView) {
+            super(itemView);
+            imgContent = (ImageView) itemView.findViewById(R.id.imagenContenido);
+            recContent = (TextView) itemView.findViewById(R.id.editcontenido);
+        }
     }
 }

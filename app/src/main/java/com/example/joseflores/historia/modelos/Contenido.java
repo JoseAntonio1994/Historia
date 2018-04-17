@@ -6,13 +6,23 @@ package com.example.joseflores.historia.modelos;
 
 public class Contenido {
     private String conUID;
+    private String imgContenido;
     private int recContenido;
 
     public Contenido(){}
 
-    public Contenido(String UID, int recContenido) {
-        this.conUID = UID;
+    public Contenido(String conUID, String imgContenido, int recContenido) {
+        this.conUID = conUID;
+        this.imgContenido = imgContenido;
         this.recContenido = recContenido;
+    }
+
+    public String getImgContenido() {
+        return imgContenido;
+    }
+
+    public void setImgContenido(String imgContenido) {
+        this.imgContenido = imgContenido;
     }
 
     public String getConUID() {
