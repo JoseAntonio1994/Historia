@@ -18,15 +18,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.joseflores.historia.modelos.Bloque;
 import com.example.joseflores.historia.modelos.Niveles;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
@@ -183,17 +180,17 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.home) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.linea_tiempo) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.ruinas) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.fechas) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.himno) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.salir) {
 
         }
 

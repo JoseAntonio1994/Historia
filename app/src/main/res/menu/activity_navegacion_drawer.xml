@@ -5,31 +5,31 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
             android:title="Inicio" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/linea_tiempo"
+            android:icon="@drawable/ic_time"
+            android:title="Lineas del Tiempo" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/ruinas"
+            android:icon="@drawable/ic_ruinas"
+            android:title="Ruinas Arqueologicas" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Configuracion" />
+            android:id="@+id/fechas"
+            android:icon="@drawable/ic_date"
+            android:title="Fechas importantes" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Material Adicional">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Acerca de" />
+                android:id="@+id/himno"
+                android:icon="@drawable/ic_bandera"
+                android:title="Himno Nacional" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/salir"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Salir" />
         </menu>
