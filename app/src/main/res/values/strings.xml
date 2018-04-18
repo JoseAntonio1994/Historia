@@ -1663,24 +1663,7 @@
         préstamos, confiscó propiedades de algunas órdenes religiosas e
         impulsó la actividad minera.
     </string>
-    <string name="napoleon">
-        En 1789, por influencia de la Ilustración, entre otras causas, se
-        inició la Revolución francesa y la monarquía fue reemplazada
-        por un gobierno republicano. Sin embargo, en 1804 Napoleón
-        Bonaparte reemplazó la República en Francia, se proclamó emperador
-        e inició varios ataques contra otros reinos de Europa;
-        estos conflictos fueron llamados guerras napoleónicas.
-        En enero de 1808, el ejército napoleónico invadió España.
-        Al someterla, Napoleón obligó al rey Carlos IV y a su heredero,
-        Fernando VII, a renunciar a la Corona y en su lugar nombró a su
-        hermano José Bonaparte.
-        Esto significó que las posesiones españolas en América, entre
-        ellas Nueva España, ya no tenían un rey reconocido por su pueblo,
-        sino un gobernante impuesto por la fuerza. Estos acontecimientos
-        influyeron para que un sector de la población novohispana
-        propusiera la separación de esa España, gobernada por los
-        franceses, para mantenerse leales al rey Fernando VII.
-    </string>
+
     <string name="inicioindependencia">
         Miguel Hidalgo, influido por las ideas de la Ilustración, estaba en
         contra de la esclavitud y de las desigualdades sociales, y planteaba
@@ -1744,6 +1727,30 @@
         de Granaditas. La guerra no terminó ahí, pues a Hidalgo y
         Allende los sucedieron otros jefes insurgentes que retomaron
         su ideología en favor de la libertad.
+    </string>
+    <string name="napoleon">
+        En 1808 España fue invadido por el ejército de Napoleón Bonaparte,
+        emperador francés. Ante tales hechos, el pueblo español se rebeló en
+        Aranjuez, entre el 17 y 19 de marzo de 1808, obligando a su Rey Carlos
+        IV, abdicar la corona en favor de su hijo Fernando,  quién asumió
+        con el nombre Fernando VII. Ante las contradicciones de los reyes españoles,
+        Napoleón Bonaparte los reunió a la familia real en la ciudad francesa de Bayona,
+        y obligó a Carlos IV y a su hijo Fernando VII a abdicar  el trono a favor de
+        su hermano José Bonaparte. Napoleón proclamó como Rey de España en el trono
+        español a su hermano con el nombre de José I. El patriotismo español se demostró
+        más en el pueblo, ante el entreguismo pasivo del monarca, la nobleza, intelectuales
+        y ejército. A partir del 2 de mayo de 1808 en toda la península,  surgió una
+        insurrección popular  y mediante las guerrillas populares,  impidieron la
+        penetración del ejército francés en provincias como Zaragoza, Valencia,
+        Gerona y otras, logrando debilitarlo. Ante estos acontecimientos, Inglaterra
+        (enemigo de Napoleón Bonaparte) decidió intervenir activamente en defensa de
+        España, comandado por el General Wellington y aporte de subsidios y técnicos.
+        El Emperador Bonaparte en persona tuvo que dirigir  para derrotar a los
+        españoles en la Batalla de Somosierra (1808) e ingresar a la capital Madrid.
+        De esta forma España llegó a tener como Rey a  un francés. Este hecho contribuyó
+        a romper el equilibrio de poder de los gobernantes españoles en las colonias
+        americanas, a causa de producirse un  período de vacío de poder, crisis de la
+        monarquía española y debilidad política en la metrópoli España.
     </string>
     <string name="pensamientomorelos">
         José María Morelos, un sacerdote nacido en Valladolid, fue el encargado
@@ -2351,45 +2358,7 @@
         repartiendo sus tropas por las calles desiertas de Puebla debido a que la
         mayoría de sus pobladores estaba de acuerdo y apoyaba la invasión de Francia.
     </string>
-    <string name="batallachaputepec">
-        El ejército de los Estados Unidos había invadido a la República Mexicana
-        en el episodio conocido como: "Guerra del 47", bajo el pretexto de violaciones
-        territoriales en la zona de Texas que pertenecía a México desde la época de
-        la Colonia.
 
-        Una parte del ejército estadounidense atacaba por el norte del país y otro
-        contingente estadounidense había desembarcado en el puerto de Veracruz y
-        avanzaba hacia la capital mexicana. En aquel entonces, en el "Cerro de
-        Chapulín" (chapultepec en idioma náhuatl) se encontraban las instalaciones
-        del Colegio Militar comandado por el general José Mariano Monterde.
-
-        Al estar situado en un punto prominente en el poniente del Valle de México,
-        era uno de los últimos lugares que restaban en la defensa de la capital;
-        el punto estaba a las órdenes del general Nicolás Bravo, héroe de la Independencia.
-
-        Es desde entonces que en México celebramos el episodio conocido como "La Heroica
-        defensa del Castillo de Chapultepec" por parte de los Niños Héroes".
-
-        Unos días antes de la batalla, el General Mariano Monterde, Director del
-        Colegio Militar le pidió a los Cadetes que se fueran a sus casas, pues el
-        Colegio se utilizaría como baluarte de defensa. Algunos alumnos le solicitaron
-        permiso para permanecer acuartelados y defender al país de los invasores.
-
-        Juan de la Barrera
-        Juan Escutia
-        Francisco Márquez
-        Agustín Melgar
-        Fernando Montes de Oca
-        Vicente Suárez.
-
-        Estos cadetes, permanecieron en su puesto esperando enfrentar al enemigo
-        (Estados Unidos) y durante la batalla pelearon como verdaderos hombres,
-        manteniendo en peligro al ejercito norteamericano hasta la muerte.
-
-        Cuentan que cuando todo había acabado, un oficial norteamericano observando
-        el rostro de los cadetes muertos, dijo lleno de sorpresa: "¡Pero si son
-        apenas unos niños!", fue a partir de esta expresión que se les llama "Los niños héroes"
-    </string>
     <string name="campoyciudad">
         Durante la primera mitad del siglo xix, las ciudades de México eran
         pequeñas y poco pobladas; la mayor parte de la población vivía en
@@ -2519,49 +2488,7 @@
         estatus social muy alto.
 
     </string>
-    <string name="revolucionayutla">
-         En la segunda mitad del siglo xix, México vivía una situación difícil.
-        Algunos de los problemas consistían en que unas cuantas personas
-        controlaban grandes extensiones de tierra y en la existencia de los
-        caciques regionales que imponían sus intereses sobre el resto de
-        la sociedad; además, la mayoría de la población no tenía acceso a la
-        educación y se carecía de recursos económicos para invertir en
-        actividades productivas.
-        En 1853, después de haber ocupado 10 veces la presidencia,
-        Antonio López de Santa Anna fue convencido por los conservadores
-        de regresar al poder. Durante su mandato, varias de sus órdenes
-        causaron descontento en la sociedad, por ejemplo, eliminó algunos
-        derechos y libertades individuales, persiguió a sus opositores
-        y sancionó a quienes lo criticaban, con lo cual limitó la libertad
-        de expresión; además, clausuró el Congreso, vendió el territorio de
-        La Mesilla a Estados Unidos, y se apropió de los bienes y recursos
-        de los estados. Una disposición que provocó gran inconformidad
-        fue el decreto por el cual se autonombró “Alteza Serenísima” y se
-        otorgó poder ilimitado para gobernar durante el tiempo que creyera
-        necesario.
-        Ante esta situación, algunos integrantes del grupo liberal, encabezados
-        por Juan Álvarez, Ignacio Comonfort y Florencio Villarreal,
-        se organizaron para quitar del gobierno a Santa Anna. En 1854, en
-        el actual municipio de Ayutla, Guerrero, se proclamó el Plan de
-        Ayutla. En él se llamaba a desconocer al gobierno y enfrentarlo por
-        medio de las armas. La idea fue apoyada en varias partes del país y
-        así se inició la llamada Revolución de Ayutla.
-        Al año siguiente el movimiento armado triunfó y Santa Anna
-        fue obligado a salir del país. Con base en el Plan de Ayutla, Juan
-        Álvarez ocupó la presidencia, luego se organizaron elecciones e
-        Ignacio Comonfort resultó electo; con esto se inició el periodo de
-        gobierno liberal. El Plan de Ayutla planteaba entre sus puntos más
-        importantes los siguientes:
 
-        Se desconocía a Antonio López de Santa Anna y a los funcionarios
-        de su gobierno que hubieran “desmerecido la confianza de los
-        pueblos o se opusieren al presente plan”.
-
-        Todo el que se opusiera al Plan de Ayutla sería “tratado como enemigo
-        de la independencia nacional”.
-
-        Convocaba a la formación de un congreso constituyente.
-    </string>
     <string name="constitucion1">
         Una vez en el gobierno, los liberales propusieron una serie de reformas
         para transformar la situación y la economía del país y para
@@ -2827,6 +2754,55 @@
         Entre las huelgas más importantes destacaron la de los mineros de
         Cananea, Sonora, en 1906, y la de la fábrica textil de Río Blanco,
         Veracruz, en 1907.
+    </string>
+    <string name="antecedentesrevolucion">
+        Bajo el lema “Baja política y mucha administración” el gobierno porfirista
+        únicamente se enfocó en el progreso material basado en el capital extranjero.
+        Es cierto, México nunca había vivido un crecimiento económico tan alto como
+        en el porfiriato; sin embargo, dicho esquema ignoraba por completo a la
+        masa trabajadora. De esta forma, la riqueza nacional fue adquirida por
+        empresas estadounidenses y europeas. Los ferrocarriles, las minas de plata
+        y la riqueza forestal eran controlados por franceses, españoles y alemanes.
+        El enorme latifundismo que se veía fue una de las causas de la Revolución Mexicana.
+        El país era mayoritariamente agrario. En aquella época, la población nacional era de
+        alrededor de 15 millones de habitantes, de los cuales 12 millones vivían en zonas
+        rurales. De acuerdo con el censo de 1910 había 840 hacendados que poseían 97% de
+        los terrenos cultivables; el resto era repartido entre 411 096 agricultores y más
+        de 3 millones de jornaleros.
+        La estabilidad económica que se vivió en aquella época fue posible gracias a la
+        explotación de recursos, incluyendo la mano de obra. No existía protección legal
+        para los obreros y campesinos, y las huelgas estaban prohibidas.
+        También existía un amplio descontento entre los campesinos debido al despojo de tierras,
+        el cual fue aplicado desde 1883, cuando comenzó a aplicarse la ley de deslinde y
+        colonización de tierras baldías. Por otra parte, existía una gran brecha entre las clases
+        más altas y las más bajas. En los rangos más altos se encontraban los latifundistas,
+        políticos, el alto clero y los empresarios; seguidos por algunos burgueses y, por último,
+        los campesinos y obreros, quienes recibían pagos miserables (75 centavos, en promedio) por
+        más de 12 horas de trabajo.
+    </string>
+    <string name="emilianozapata">
+        Mejor conocido como “El Caudillo del Sur”, fue uno de los símbolos más importantes
+        de la resistencia campesina en México, estuvo al mando del Ejército Libertador del
+        Sur, sus principales ideales giraron alrededor de la justicia social, libertad,
+        igualdad, democracia social, respeto a las comunidades indígenas, campesinas y obreras.
+        A la edad de nueve años, Emiliano Zapata queda impactado al presenciar un despojo de
+        campesinos por parte de grandes hacendados de la zona, cuestionado Gabriel por su hijo,
+        le dice que no se puede hacer nada, a lo que Emiliano responde: “¿No se puede? Pues
+        cuando sea grande, haré que se las devuelvan”. A la edad de 30 años, se convirtió
+        en dirigente agrario de Morelos, donde empezó a analizar documentos que acreditaban
+        los derechos de propiedad de los pueblos sobre sus tierras, los cuales habían sido
+        negados por las Leyes de Reforma y participa en reuniones celebradas en Villa de
+        Ayala, que después se convertirían en el Plan de Ayala, que suponía una reforma
+        agraria radical, “La tierra es de quien la trabaja”. Al proclamarse el Plan de San Luis,
+        que marcaba el inicio de la Revolución, a Zapata le llama la atención el Artículo Tercero,
+        que ofrecía la restitución de las tierras a sus legítimos propietarios; es así que
+        entra en pláticas para la toma de armas junto con Pablo Torres Burgos, Rafael
+        Merino y cerca de 60 campesinos. Fue el 10 de abril de 1919 que Zapata fue engañado
+        por Jesús Guajardo, haciéndolo creer que estaba descontento con Carranza y que
+        quería unirse a él, ofrecerle armamento y municiones para continuar con su lucha.
+        Así, en la Hacienda de Chinameca, Morelos, al cruzar el dintel, tiradores escondidos
+        en las azoteas, abrieron fuego contra Zapata y su escolta de cien hombres.
+
     </string>
     <string name="revolucionmexicana">
         Hacia finales del siglo xix y principios del xx se formaron distintos

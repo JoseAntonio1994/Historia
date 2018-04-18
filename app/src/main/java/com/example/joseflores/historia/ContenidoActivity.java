@@ -135,7 +135,7 @@ public class ContenidoActivity extends AppCompatActivity {
         Contenido con = new Contenido();
         con.setConUID(conUID);
         con.setImgContenido(imgTema);
-        con.setRecContenido(R.string.aporteasiatico);
+        con.setRecContenido(R.string.napoleon);
 
         mReference.child(conUID).setValue(con);
     }
