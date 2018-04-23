@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".BloqueActivity" />
         <activity android:name=".TemaActivity" />
-        <activity android:name=".ContenidoActivity"></activity>
+        <activity android:name=".ContenidoActivity" />
+        <activity android:name=".SeccionActivity"></activity>
     </application>
 
 </manifest>
