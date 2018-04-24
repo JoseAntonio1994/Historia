@@ -186,6 +186,9 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
 
         } else if (id == R.id.ruinas) {
 
+            Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
+            startActivity(i);
+
         } else if (id == R.id.fechas) {
 
         } else if (id == R.id.himno) {

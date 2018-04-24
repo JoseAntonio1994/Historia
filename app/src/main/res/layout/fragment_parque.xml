@@ -1,20 +1,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_parque"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.joseflores.historia.ParqueFragment">
 
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/tooParque"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:title="Parques arqueológicos"
-        app:titleTextColor="@android:color/white"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_parque"
