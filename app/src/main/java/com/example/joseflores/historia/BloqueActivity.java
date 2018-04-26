@@ -169,12 +169,7 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
         return urlArray[urlArray.length - 1];
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.navegacion, menu);
-        return true;
-    }
+
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -184,6 +179,9 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
             // Handle the camera action
         } else if (id == R.id.linea_tiempo) {
 
+            Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
+            startActivity(i);
+
         } else if (id == R.id.ruinas) {
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
@@ -191,9 +189,17 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
 
         } else if (id == R.id.fechas) {
 
+            Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
+            startActivity(i);
+
         } else if (id == R.id.himno) {
 
+            Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
+            startActivity(i);
+
         } else if (id == R.id.salir) {
+
+            finish();
 
         }
 

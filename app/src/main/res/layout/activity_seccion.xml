@@ -6,19 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.joseflores.historia.SeccionActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/tooParque"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:titleTextColor="@android:color/white" />
+    <include android:id="@+id/tooParque" layout="@layout/barra_seccion"/>
 
     <FrameLayout
         android:id="@+id/fragment_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@id/tooParque">
 
     </FrameLayout>
 

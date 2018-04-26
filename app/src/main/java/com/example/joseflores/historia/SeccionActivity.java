@@ -1,5 +1,6 @@
 package com.example.joseflores.historia;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -15,15 +16,15 @@ import android.view.MenuItem;
 
 public class SeccionActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
+    private Toolbar toolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.seccion_drawer);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.tooParque);
+        toolbar = (Toolbar) findViewById(R.id.tooParque);
         setSupportActionBar(toolbar);
-
-        this.setTitle("Parques arqueologicos");
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.seccion_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -59,16 +60,29 @@ public class SeccionActivity extends AppCompatActivity implements NavigationView
 
         if (id == R.id.home) {
 
+            startActivity(new Intent(SeccionActivity.this, BloqueActivity.class));
+
         } else if (id == R.id.linea_tiempo) {
+            fragmentSelected = new LineaFragment();
+            toolbar.setTitle("Linea del Tiempo");
 
         } else if (id == R.id.ruinas) {
             fragmentSelected = new ParqueFragment();
+            toolbar.setTitle("Parques Arqueologicos");
 
         } else if (id == R.id.fechas) {
 
+            fragmentSelected = new FechasFragment();
+            toolbar.setTitle("Fechas importantes");
+
         } else if (id == R.id.himno) {
 
+            fragmentSelected = new HimnoFragment();
+            toolbar.setTitle("Himno Nacional");
+
         } else if (id == R.id.salir) {
+
+            finish();
 
         }
 

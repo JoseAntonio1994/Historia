@@ -57,24 +57,6 @@ public class TemaActivity extends AppCompatActivity implements AdapterView.OnIte
         dbRef = FirebaseDatabase.getInstance().getReference(Niveles.EPOCAS).child(uidEpoca).child(Niveles.TEMA);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.navegacion, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.action_add:
-                //nuevoTema();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-
-
-    }
 
     private void nuevoTema() {
         String UID = getUID();
