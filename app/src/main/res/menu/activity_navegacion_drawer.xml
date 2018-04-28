@@ -9,13 +9,13 @@
             android:icon="@drawable/ic_home"
             android:title="Inicio" />
         <item
-            android:id="@+id/linea_tiempo"
+            android:id="@+id/bandera_mexico"
             android:icon="@drawable/ic_time"
-            android:title="Lineas del Tiempo" />
+            android:title="Bandera de México" />
         <item
-            android:id="@+id/ruinas"
+            android:id="@+id/parque_arqueologico"
             android:icon="@drawable/ic_ruinas"
-            android:title="Ruinas Arqueologicas" />
+            android:title="Parques Arqueologicos" />
         <item
             android:id="@+id/fechas"
             android:icon="@drawable/ic_date"

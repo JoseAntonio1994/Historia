@@ -11,12 +11,14 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class SeccionActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
     private Toolbar toolbar;
+
+    private String title;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,12 @@ public class SeccionActivity extends AppCompatActivity implements NavigationView
 
         toolbar = (Toolbar) findViewById(R.id.tooParque);
         setSupportActionBar(toolbar);
+
+        if (getIntent().getExtras() != null){
+            title = getIntent().getStringExtra("title");
+            this.setTitle(title);
+        }else
+            Toast.makeText(getApplicationContext(), "Sin titulo", Toast.LENGTH_SHORT).show();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.seccion_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -62,11 +70,11 @@ public class SeccionActivity extends AppCompatActivity implements NavigationView
 
             startActivity(new Intent(SeccionActivity.this, BloqueActivity.class));
 
-        } else if (id == R.id.linea_tiempo) {
+        } else if (id == R.id.bandera_mexico) {
             fragmentSelected = new LineaFragment();
-            toolbar.setTitle("Linea del Tiempo");
+            toolbar.setTitle("Bandera de México");
 
-        } else if (id == R.id.ruinas) {
+        } else if (id == R.id.parque_arqueologico) {
             fragmentSelected = new ParqueFragment();
             toolbar.setTitle("Parques Arqueologicos");
 
@@ -86,9 +94,14 @@ public class SeccionActivity extends AppCompatActivity implements NavigationView
 
         }
 
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.fragment_parque, fragmentSelected);
-        transaction.commit();
+        if (fragmentSelected != null){
+
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.fragment_layout, fragmentSelected);
+            transaction.commit();
+
+        }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.seccion_view);
         drawer.closeDrawer(GravityCompat.START);

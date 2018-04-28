@@ -12,7 +12,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -177,24 +176,28 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
 
         if (id == R.id.home) {
             // Handle the camera action
-        } else if (id == R.id.linea_tiempo) {
+        } else if (id == R.id.bandera_mexico) {
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
+            i.putExtra("title", "Bandera de México");
             startActivity(i);
 
-        } else if (id == R.id.ruinas) {
+        } else if (id == R.id.parque_arqueologico) {
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
+            i.putExtra("title", "Parques Arqueologicos");
             startActivity(i);
 
         } else if (id == R.id.fechas) {
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
+            i.putExtra("title", "Fechas importantes");
             startActivity(i);
 
         } else if (id == R.id.himno) {
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
+            i.putExtra("title", "Hinmo Nacional");
             startActivity(i);
 
         } else if (id == R.id.salir) {
