@@ -9,9 +9,17 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.RotateAnimation;
+import android.widget.ExpandableListAdapter;
+import android.widget.ExpandableListView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,14 +41,28 @@ public class ParqueFragment extends Fragment {
     private RecyclerView mRecycler;
     private RecyclerView.LayoutManager mLayoutManager;
 
+
     public ParqueFragment() {
         // Required empty public constructor
     }
 
+    @Override
+    public void onStart() {
+        super.onStart();
+        adapter.startListening();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        adapter.stopListening();
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        setHasOptionsMenu(true);
 
     }
 
@@ -71,6 +93,9 @@ public class ParqueFragment extends Fragment {
 
     private void setupAdapter() {
         adapter = new FirebaseRecyclerAdapter<ParqueArqueologico, ParqueAdapter>(options) {
+
+            ViewGroup grupo;
+
             @Override
             protected void onBindViewHolder(@NonNull ParqueAdapter holder, int position, @NonNull ParqueArqueologico model) {
 
@@ -87,6 +112,7 @@ public class ParqueFragment extends Fragment {
                     }
                 });
 
+
             }
 
             @NonNull
@@ -100,6 +126,39 @@ public class ParqueFragment extends Fragment {
         };
     }
 
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.navegacion, menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()){
+
+            case R.id.action_add:
+
+                newBlock();
+
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void newBlock() {
+
+        String UID = getUID();
+
+        ParqueArqueologico parque = new ParqueArqueologico(UID, "Hola", "Hola", "Hola");
+        mReference.child(UID).setValue(parque);
+    }
+
+    private String getUID(){
+        String urlArray[] = mReference.push().toString().split("/");
+        return urlArray[urlArray.length - 1];
+    }
 
     public static class ParqueAdapter extends RecyclerView.ViewHolder{
 
@@ -113,6 +172,7 @@ public class ParqueFragment extends Fragment {
             urlImagen = (ImageView) view.findViewById(R.id.urlParque);
             nombreParque = (TextView) view.findViewById(R.id.textTitParque);
             descripcionParque = (TextView) view.findViewById(R.id.textDesParque);
+
         }
     }
 }

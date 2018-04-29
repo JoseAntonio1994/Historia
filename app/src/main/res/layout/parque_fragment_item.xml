@@ -3,9 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="400dp">
+    android:layout_height="wrap_content">
 
     <RelativeLayout
+        android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -16,40 +17,32 @@
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/portada" />
 
-        <android.support.constraint.ConstraintLayout
+        <RelativeLayout
+            android:id="@+id/barra_animacion"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/urlParque">
+            android:layout_height="wrap_content"
+            android:layout_below="@id/urlParque"
+            android:padding="8dp">
 
             <TextView
                 android:id="@+id/textTitParque"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:text="TextView"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintHorizontal_bias="0.071"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textDesParque"
-                android:layout_width="375dp"
-                android:layout_height="115dp"
-                android:layout_marginBottom="17dp"
-                android:layout_marginEnd="4dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textTitParque"
                 android:inputType="textMultiLine"
-                android:textColor="@android:color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textTitParque" />
-        </android.support.constraint.ConstraintLayout>
+                android:text="hola a todos"
+                android:textColor="@android:color/black" />
+
+        </RelativeLayout>
+
     </RelativeLayout>
 
 </android.support.v7.widget.CardView>

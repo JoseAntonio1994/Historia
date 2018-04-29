@@ -161,6 +161,7 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
         Bloque bloque = new Bloque(UID, "http://indicepolitico.com/wp-content/uploads/2016/10/agricultura-prehispanica-01.png","Epoca prehispanica");
 
         dbRef.child(UID).setValue(bloque);
+
     }
 
     private String getUID(){
