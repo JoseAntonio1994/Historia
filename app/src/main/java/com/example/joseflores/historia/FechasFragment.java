@@ -2,12 +2,19 @@ package com.example.joseflores.historia;
 
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.example.joseflores.historia.modelos.Fechas;
 import com.example.joseflores.historia.modelos.Niveles;
 import com.firebase.ui.database.FirebaseListAdapter;
@@ -32,6 +39,12 @@ public class FechasFragment extends Fragment {
         // Required empty public constructor
     }
 
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setHasOptionsMenu(true);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -48,9 +61,81 @@ public class FechasFragment extends Fragment {
         return view;
     }
 
+    @Override
+    public void onStart() {
+        super.onStart();
+        adapter.startListening();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        adapter.stopListening();
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.navegacion, menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()){
+
+            case R.id.action_add:
+
+                newBlock();
+
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void newBlock() {
+        String UID = getUID();
+
+        Fechas fechas = new Fechas(UID, "Hola", "Hola", "Hola");
+        mReference.child(UID).setValue(fechas);
+    }
+
+    private String getUID(){
+        String urlArray[] = mReference.push().toString().split("/");
+        return urlArray[urlArray.length - 1];
+    }
+
     private void inicialiceFirebaseOptions(View view) {
 
+        options = new FirebaseListOptions.Builder<Fechas>()
+                .setLayout(R.layout.fragment_fecha_item)
+                .setQuery(mReference, Fechas.class)
+                .build();
 
+        setupAdapter(view);
+
+        listView.setAdapter(adapter);
+
+    }
+
+    private void setupAdapter(View view) {
+
+        adapter = new FirebaseListAdapter<Fechas>(options) {
+            @Override
+            protected void populateView(View v, Fechas model, int position) {
+
+                ImageView imageFecha = (ImageView) v.findViewById(R.id.imageFecha);
+                Glide.with(FechasFragment.this).load(model.getImageFecha()).error(R.drawable.carga).into(imageFecha);
+
+                TextView textNom = (TextView)v.findViewById(R.id.nomFecha);
+                textNom.setText(model.getNomFecha());
+
+                TextView textDesc = (TextView) v.findViewById(R.id.descFecha);
+                textDesc.setText(model.getDescFecha());
+
+            }
+        };
 
     }
 

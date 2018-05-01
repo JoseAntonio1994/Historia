@@ -126,39 +126,6 @@ public class ParqueFragment extends Fragment {
         };
     }
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.navegacion, menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        switch (item.getItemId()){
-
-            case R.id.action_add:
-
-                newBlock();
-
-                break;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    private void newBlock() {
-
-        String UID = getUID();
-
-        ParqueArqueologico parque = new ParqueArqueologico(UID, "Hola", "Hola", "Hola");
-        mReference.child(UID).setValue(parque);
-    }
-
-    private String getUID(){
-        String urlArray[] = mReference.push().toString().split("/");
-        return urlArray[urlArray.length - 1];
-    }
 
     public static class ParqueAdapter extends RecyclerView.ViewHolder{
 
