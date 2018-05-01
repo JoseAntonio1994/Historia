@@ -9,4 +9,5 @@ public class Niveles {
     public final static String TEMA = "tema";
     public final static String CONTENIDO = "contenido";
     public final static String PARQUES = "parques";
+    public final static String FECHAS = "fechas";
 }

@@ -181,29 +181,33 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
             i.putExtra("title", "Bandera de México");
+            i.putExtra("id", 0);
             startActivity(i);
 
         } else if (id == R.id.parque_arqueologico) {
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
             i.putExtra("title", "Parques Arqueologicos");
+            i.putExtra("id", 1);
             startActivity(i);
 
         } else if (id == R.id.fechas) {
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
             i.putExtra("title", "Fechas importantes");
+            i.putExtra("id", 2);
             startActivity(i);
 
         } else if (id == R.id.himno) {
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
             i.putExtra("title", "Hinmo Nacional");
+            i.putExtra("id", 3);
             startActivity(i);
 
         } else if (id == R.id.salir) {
 
-            finish();
+            startActivity(new Intent(BloqueActivity.this, MainActivity.class));
 
         }
 

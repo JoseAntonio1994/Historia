@@ -3,11 +3,8 @@
     android:id="@+id/fragment_linea"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bandera"
     tools:context="com.example.joseflores.historia.LineaFragment">
 
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_linea"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 </RelativeLayout>

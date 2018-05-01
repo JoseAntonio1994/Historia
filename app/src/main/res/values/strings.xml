@@ -2,6 +2,64 @@
     <string name="app_name">Historia de Mexico</string>
     <string name="rutas_poblamiento">Rutas del poblamiento de América</string>
 
+    <!-- Himno Nacional  -->
+    <string name="himno_nacional">
+
+        <![CDATA[
+        Mexicanos, al grito de guerra<br>
+        el acero aprestad y el bridón<br>
+        y retiembre su centros la tierra<br>
+        al sonoro rugir del cañon<br>
+
+        <br><br>
+        <b>Estrofa I</b><br>
+        Ciña ¡Oh, Patria! tus sienes de oliva<br>
+        de la paz el arcángel divino,<br>
+        que en el cielo tu eterno destino<br>
+        por el dedo de Dios se escribió.<br><br>
+
+        Mas si osare un extraño enemigo<br>
+        profanar con su planta tu suelo,<br>
+        piensa ¡Oh, Patria querida! que el cielo<br>
+        un soldado en cada hijo te dio.<br>
+
+        <br><br>
+        <b>Estrofa II</b><br>
+        ¡Guerra, guerra sin tregua al que intente<br>
+        de la patria manchar los blasones!,<br>
+        ¡guerra, guerra! los patrios pendones<br>
+        en las olas de sangre empapad.<br>
+        ¡Guerra, guerra! en el monte, en el valle,<br>
+        los cañones horrísonos truenen<br>
+        y los ecos sonoros resuenen<br>
+        con las voces de ¡Unión! ¡Libertad!<br>
+
+        <br><br>
+        <b>Estrofa III</b><br>
+        Antes, Patria, que inermes tus hijos<br>
+        bajo el yugo su cuello dobleguen,<br>
+        tus campiñas con sangre se rieguen,<br>
+        sobre sangre se estampe su pie.<br>
+        Y tus templos, palacios y torres<br>
+        se derrumben con hórrido estruendo,<br>
+        y sus ruinas existan diciendo:<br>
+        de mil héroes la Patria aquí fue.<br>
+
+        <br><br>
+        <b>Estrofa IV</b><br>
+        ¡Patria! ¡Patria!, tus hijos te juran<br>
+        exhalar en tus aras su aliento,<br>
+        si el clarín con su bélico acento<br>
+        los convoca a lidiar con valor.<br>
+        ¡Para ti las guirnaldas de oliva!<br>
+        ¡Un recuerdo para ellos de gloria!<br>
+        ¡Un laurel para ti de victoria!<br>
+        ¡Un sepulcro para ellos de honor!<br>
+
+        ]]>
+
+    </string>
+
     <!-- Epoca prehispanica. -->
     <string name="migrantes">
         Hace miles de años, la Tierra experimentó una serie de cambios climáticos conocidos como glaciaciones;

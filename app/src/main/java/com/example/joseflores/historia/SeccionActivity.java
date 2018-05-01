@@ -17,6 +17,8 @@ import android.widget.Toast;
 public class SeccionActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
     private Toolbar toolbar;
+    private FragmentTransaction transaction;
+    private Fragment fragmentSelected = null;
 
     private String title;
 
@@ -31,8 +33,26 @@ public class SeccionActivity extends AppCompatActivity implements NavigationView
         if (getIntent().getExtras() != null){
             title = getIntent().getStringExtra("title");
             this.setTitle(title);
-        }else
-            Toast.makeText(getApplicationContext(), "Sin titulo", Toast.LENGTH_SHORT).show();
+
+            switch (getIntent().getExtras().getInt("id")){
+
+                case 0:
+                    fragmentSelected = new LineaFragment();
+                    break;
+                case 1:
+                    fragmentSelected = new ParqueFragment();
+                    break;
+                case 2:
+                    fragmentSelected = new FechasFragment();
+                    break;
+                case 3:
+                    fragmentSelected = new HimnoFragment();
+                    break;
+
+            }
+        }
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.seccion_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -43,8 +63,8 @@ public class SeccionActivity extends AppCompatActivity implements NavigationView
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view_seccion);
         navigationView.setNavigationItemSelectedListener(this);
 
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.fragment_layout, new ParqueFragment());
+        transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.fragment_layout, fragmentSelected);
         transaction.commit();
 
     }
@@ -64,9 +84,9 @@ public class SeccionActivity extends AppCompatActivity implements NavigationView
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
 
-        Fragment fragmentSelected = null;
-
         if (id == R.id.home) {
+
+            fragmentSelected = null;
 
             startActivity(new Intent(SeccionActivity.this, BloqueActivity.class));
 
@@ -90,13 +110,15 @@ public class SeccionActivity extends AppCompatActivity implements NavigationView
 
         } else if (id == R.id.salir) {
 
-            finish();
+            fragmentSelected = null;
+
+            startActivity(new Intent(SeccionActivity.this, BloqueActivity.class));
 
         }
 
         if (fragmentSelected != null){
 
-            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            transaction = getSupportFragmentManager().beginTransaction();
             transaction.replace(R.id.fragment_layout, fragmentSelected);
             transaction.commit();
 
