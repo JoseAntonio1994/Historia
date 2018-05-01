@@ -43,7 +43,7 @@ public class FechasFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setHasOptionsMenu(true);
+        //setHasOptionsMenu(true);
     }
 
     @Override
@@ -73,38 +73,6 @@ public class FechasFragment extends Fragment {
         adapter.stopListening();
     }
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.navegacion, menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        switch (item.getItemId()){
-
-            case R.id.action_add:
-
-                newBlock();
-
-                break;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    private void newBlock() {
-        String UID = getUID();
-
-        Fechas fechas = new Fechas(UID, "Hola", "Hola", "Hola");
-        mReference.child(UID).setValue(fechas);
-    }
-
-    private String getUID(){
-        String urlArray[] = mReference.push().toString().split("/");
-        return urlArray[urlArray.length - 1];
-    }
 
     private void inicialiceFirebaseOptions(View view) {
 

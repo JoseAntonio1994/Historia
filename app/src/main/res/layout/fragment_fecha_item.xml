@@ -5,16 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="16dp">
+    android:padding="8dp">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageFecha"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="18dp"
-        android:layout_marginTop="8dp"
         android:scaleType="centerCrop"
         android:src="@android:drawable/ic_menu_add" />
 
@@ -25,9 +24,8 @@
         android:layout_alignStart="@+id/descFecha"
         android:layout_alignTop="@+id/imageFecha"
         android:text="5 de Marzo"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        />
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/descFecha"
@@ -37,7 +35,7 @@
         android:layout_marginStart="12dp"
         android:layout_toEndOf="@+id/imageFecha"
         android:text="TextView"
-        android:textSize="18sp"
+        android:textSize="14sp"
         tools:text="Natalicio de Benito Juarez" />
 
 </RelativeLayout>

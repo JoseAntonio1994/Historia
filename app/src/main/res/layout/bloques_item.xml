@@ -10,12 +10,12 @@
     <android.support.constraint.ConstraintLayout
         android:id="@+id/tarjetaBloque"
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/imagenBloque"
             android:layout_width="match_parent"
-            android:layout_height="161dp"
+            android:layout_height="200dp"
             android:scaleType="centerCrop"
             app:layout_constraintBottom_toTopOf="@+id/tarjeta_barra"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -25,7 +25,7 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/tarjeta_barra"
             android:layout_width="0dp"
-            android:layout_height="32dp"
+            android:layout_height="40dp"
             android:background="#FFF"
             android:minHeight="?attr/actionBarSize"
             android:padding="8dp"
