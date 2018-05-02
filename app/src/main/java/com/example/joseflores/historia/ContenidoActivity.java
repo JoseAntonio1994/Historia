@@ -1,11 +1,13 @@
 package com.example.joseflores.historia;
 
+import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -55,6 +57,10 @@ public class ContenidoActivity extends AppCompatActivity {
         imgContenido = (ImageView) findViewById(R.id.imagenContenido);
         ediContenido = (TextView) findViewById(R.id.editcontenido);
 
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            ediContenido.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
+        }
+
         if (getIntent().getExtras() != null){
             temaUID = getIntent().getStringExtra("temUID");
             epoUID = getIntent().getStringExtra("epoUID");
@@ -87,7 +93,7 @@ public class ContenidoActivity extends AppCompatActivity {
             @Override
             protected void onBindViewHolder(@NonNull ContentAdapter holder, int position, @NonNull Contenido model) {
                 Glide.with(ContenidoActivity.this).load(model.getImgContenido()).error(R.drawable.carga).into(holder.imgContent);
-                holder.recContent.setText(getString(model.getRecContenido()));
+                holder.recContent.setText(model.getRecContenido());
             }
 
             @NonNull
@@ -112,20 +118,16 @@ public class ContenidoActivity extends AppCompatActivity {
     }
 
     private void newContent() {
-        String conUID = getUID();
+        String conUID = mReference.push().getKey();
 
         Contenido con = new Contenido();
         con.setConUID(conUID);
         con.setImgContenido(imgTema);
-        con.setRecContenido(R.string.aridoamerica);
+        con.setRecContenido("Hola");
 
         mReference.child(conUID).setValue(con);
     }
 
-    private String getUID(){
-        String urlArray[] = mReference.push().toString().split("/");
-        return urlArray[urlArray.length - 1];
-    }
 
     public static class ContentAdapter extends RecyclerView.ViewHolder{
 

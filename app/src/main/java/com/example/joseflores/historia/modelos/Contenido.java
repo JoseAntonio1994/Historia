@@ -7,11 +7,11 @@ package com.example.joseflores.historia.modelos;
 public class Contenido {
     private String conUID;
     private String imgContenido;
-    private int recContenido;
+    private String recContenido;
 
     public Contenido(){}
 
-    public Contenido(String conUID, String imgContenido, int recContenido) {
+    public Contenido(String conUID, String imgContenido, String recContenido) {
         this.conUID = conUID;
         this.imgContenido = imgContenido;
         this.recContenido = recContenido;
@@ -33,11 +33,11 @@ public class Contenido {
         this.conUID = conUID;
     }
 
-    public int getRecContenido() {
+    public String getRecContenido() {
         return recContenido;
     }
 
-    public void setRecContenido(int recContenido) {
+    public void setRecContenido(String recContenido) {
         this.recContenido = recContenido;
     }
 
