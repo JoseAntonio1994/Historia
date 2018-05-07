@@ -29,7 +29,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (v.getId() == R.id.btnMenu){
             startActivity(new Intent(MainActivity.this, BloqueActivity.class));
         }else if (v.getId() == R.id.btnSalir){
+
+            System.exit(0);
+
             finish();
+
         }
     }
 }

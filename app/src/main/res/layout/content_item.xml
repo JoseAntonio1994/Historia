@@ -16,9 +16,11 @@
 
             <ImageView
                 android:id="@+id/imagenContenido"
-                android:layout_width="344dp"
+                android:layout_width="0dp"
                 android:layout_height="212dp"
-                android:layout_marginTop="44dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
                 android:scaleType="centerCrop"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.49"

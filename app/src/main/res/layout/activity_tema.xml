@@ -16,9 +16,14 @@
         app:titleTextColor="@android:color/white"
         android:theme="?attr/actionBarTheme" />
 
-    <ListView
-        android:id="@+id/lista_temas2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/toolbarPre" />
+
+
+        <ListView
+            android:id="@+id/lista_temas2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbarPre" />
+
+
+
 </RelativeLayout>
