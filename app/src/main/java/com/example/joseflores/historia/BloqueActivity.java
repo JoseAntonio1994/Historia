@@ -1,6 +1,9 @@
 package com.example.joseflores.historia;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,6 +20,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.joseflores.historia.modelos.Bloque;
@@ -33,7 +37,6 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
     private RecyclerView recycler;
     private FirebaseRecyclerAdapter<Bloque, BloqueAdapter> adapter;
     private DatabaseReference dbRef;
-    private Query query;
     private FirebaseRecyclerOptions<Bloque> options;
     private RecyclerView.LayoutManager layoutManager;
 
@@ -46,7 +49,6 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
         setSupportActionBar(toolbar);
 
         inicialiceSreen();
-        inicialiceQuery();
         inicialiceFirebaseOptions();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -58,10 +60,23 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        if (!isNetworkConnected(getApplicationContext()))
+            Toast.makeText(getApplicationContext(), "No hay conexión a internet", Toast.LENGTH_SHORT).show();
 
 
 
+    }
 
+    //Comprobar si tenemos conexión a internet
+    private boolean isNetworkConnected(Context context) {
+
+        ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context
+                .CONNECTIVITY_SERVICE);
+        NetworkInfo info = connectivityManager.getActiveNetworkInfo();
+        if (info == null || !info.isConnected() || !info.isAvailable()) {
+            return false;
+        }
+        return true;
     }
 
     private void inicialiceSreen() {
@@ -72,16 +87,9 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
         dbRef = FirebaseDatabase.getInstance().getReference().child(Niveles.EPOCAS);
     }
 
-    private void inicialiceQuery() {
-        query = FirebaseDatabase
-                .getInstance()
-                .getReference()
-                .child(Niveles.EPOCAS);
-    }
-
     private void inicialiceFirebaseOptions(){
         options = new FirebaseRecyclerOptions.Builder<Bloque>()
-                .setQuery(query, Bloque.class)
+                .setQuery(dbRef, Bloque.class)
                 .build();
         setupAdapter();
         recycler.setAdapter(adapter);
@@ -104,6 +112,16 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
                         i.putExtra("clave", clave);
                         i.putExtra("nombre", model.getNombreEpoca());
                         startActivity(i);
+                    }
+                });
+
+                holder.actSiguiente.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                        //Aqui se debe ir a una actividad en donde se elaboraran preguntas dinamicas en la aplicacion por cada etapa.
+
+                        Toast.makeText(getApplicationContext(), "Proximamente", Toast.LENGTH_SHORT).show();
                     }
                 });
             }
@@ -140,35 +158,6 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
             super.onBackPressed();
         }
     }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.action_settings:
-                return true;
-            case R.id.action_add:
-               //newBlock();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-
-
-    }
-
-    private void newBlock() {
-        String UID = getUID();
-        Bloque bloque = new Bloque(UID, "http://indicepolitico.com/wp-content/uploads/2016/10/agricultura-prehispanica-01.png","Epoca prehispanica");
-
-        dbRef.child(UID).setValue(bloque);
-
-    }
-
-    private String getUID(){
-        String urlArray[] = dbRef.push().toString().split("/");
-        return urlArray[urlArray.length - 1];
-    }
-
 
 
     @Override

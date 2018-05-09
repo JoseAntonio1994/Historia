@@ -27,7 +27,6 @@ public class TemaActivity extends AppCompatActivity implements AdapterView.OnIte
     private ListView listView;
     private FirebaseListAdapter<Tema> adapter;
     private DatabaseReference dbRef;
-    private Query query;
     private FirebaseListOptions<Tema> options;
 
     private String uidEpoca;
@@ -40,6 +39,13 @@ public class TemaActivity extends AppCompatActivity implements AdapterView.OnIte
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbarPre);
         setSupportActionBar(toolbar);
 
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
         if (getIntent().getExtras() != null){
             uidEpoca = getIntent().getStringExtra("clave");
             nomEpoca = getIntent().getStringExtra("nombre");
@@ -48,26 +54,12 @@ public class TemaActivity extends AppCompatActivity implements AdapterView.OnIte
         this.setTitle(nomEpoca);
 
         inicialiceScreen();
-        inicialiceQuery();
         inicialiceFirebaseOptions();
     }
 
     private void inicialiceScreen() {
         listView = (ListView) findViewById(R.id.lista_temas2);
         dbRef = FirebaseDatabase.getInstance().getReference(Niveles.EPOCAS).child(uidEpoca).child(Niveles.TEMA);
-    }
-
-
-    private void nuevoTema() {
-        String UID = getUID();
-        Tema tema = new Tema(UID, "https://img.elcomercio.pe/files/article_content_ec_fotos/uploads/2017/11/07/5a01e0d1ceb7d.jpeg",
-                "Migrantes de Asia a América");
-        dbRef.child(UID).setValue(tema);
-    }
-
-    private String getUID(){
-        String urlArray[] = dbRef.push().toString().split("/");
-        return urlArray[urlArray.length - 1];
     }
 
     @Override
@@ -85,22 +77,13 @@ public class TemaActivity extends AppCompatActivity implements AdapterView.OnIte
     private void inicialiceFirebaseOptions() {
         options = new FirebaseListOptions.Builder<Tema>()
                 .setLayout(R.layout.temas_item)
-                .setQuery(query, Tema.class)
+                .setQuery(dbRef, Tema.class)
                 .build();
         setupAdapter();
         listView.setOnItemClickListener(this);
         listView.setAdapter(adapter);
     }
 
-    private void inicialiceQuery() {
-        query = FirebaseDatabase
-                .getInstance()
-                .getReference()
-                .child(Niveles.EPOCAS)
-                .child(uidEpoca)
-                .child(Niveles.TEMA)
-                .limitToLast(50);
-    }
 
     private void setupAdapter() {
         adapter = new FirebaseListAdapter<Tema>(options) {

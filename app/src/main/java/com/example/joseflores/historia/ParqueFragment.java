@@ -1,6 +1,8 @@
 package com.example.joseflores.historia;
 
 import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -78,9 +80,24 @@ public class ParqueFragment extends Fragment {
         mRecycler.setHasFixedSize(true);
         mReference = FirebaseDatabase.getInstance().getReference().child(Niveles.PARQUES);
 
+        if (!isNetworkConnected(getContext()))
+            Toast.makeText(getContext(), "No hay conexión a internet", Toast.LENGTH_SHORT).show();
+
         consulta(mReference);
 
         return view;
+    }
+
+    //Comprobar si tenemos conexión a internet
+    private boolean isNetworkConnected(Context context) {
+
+        ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context
+                .CONNECTIVITY_SERVICE);
+        NetworkInfo info = connectivityManager.getActiveNetworkInfo();
+        if (info == null || !info.isConnected() || !info.isAvailable()) {
+            return false;
+        }
+        return true;
     }
 
     private void consulta(DatabaseReference reference) {
@@ -108,7 +125,10 @@ public class ParqueFragment extends Fragment {
                 holder.urlImagen.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Toast.makeText(getContext(), "Imagen", Toast.LENGTH_SHORT).show();
+
+                        //Se debe poder agrandar la imagen al tamaño del dispositivo para su apreciación.
+
+                        Toast.makeText(getContext(), "Proximamente", Toast.LENGTH_SHORT).show();
                     }
                 });
 

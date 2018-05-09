@@ -49,6 +49,13 @@ public class ContenidoActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.tooContent);
         setSupportActionBar(toolbar);
 
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
         mRecycler =(RecyclerView) findViewById(R.id.recycler_content);
         layoutManager = new LinearLayoutManager(this);
         mRecycler.setLayoutManager(layoutManager);

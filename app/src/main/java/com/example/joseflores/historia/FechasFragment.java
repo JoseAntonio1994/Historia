@@ -1,6 +1,9 @@
 package com.example.joseflores.historia;
 
 
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -13,6 +16,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.joseflores.historia.modelos.Fechas;
@@ -58,7 +62,22 @@ public class FechasFragment extends Fragment {
 
         inicialiceFirebaseOptions(view);
 
+        if (!isNetworkConnected(getContext()))
+            Toast.makeText(getContext(), "No hay conexión a internet", Toast.LENGTH_SHORT).show();
+
         return view;
+    }
+
+    //Comprobar si tenemos conexión a internet
+    private boolean isNetworkConnected(Context context) {
+
+        ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context
+                .CONNECTIVITY_SERVICE);
+        NetworkInfo info = connectivityManager.getActiveNetworkInfo();
+        if (info == null || !info.isConnected() || !info.isAvailable()) {
+            return false;
+        }
+        return true;
     }
 
     @Override

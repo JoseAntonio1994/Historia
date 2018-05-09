@@ -14,13 +14,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="ToolbarTextAppearance">
-        <item name="android:fontFamily">sans-serif-condensed</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:shadowDx">1</item>
-        <item name="android:shadowDy">1</item>
-        <item name="android:shadowRadius">2</item>
-        <item name="android:shadowColor">?colorAccent</item>
+    <style name="MyToolbar">
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="navigationIcon">@drawable/ic_action_back</item>
+        <item name="android:background">?colorPrimary</item>
     </style>
 
     <style name="Efectos" parent="Theme.AppCompat.Light">
