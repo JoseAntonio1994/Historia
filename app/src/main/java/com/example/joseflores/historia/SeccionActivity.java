@@ -12,7 +12,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.widget.Toast;
+
+import com.example.joseflores.historia.fragmentos.FechasFragment;
+import com.example.joseflores.historia.fragmentos.HimnoFragment;
+import com.example.joseflores.historia.fragmentos.LineaFragment;
+import com.example.joseflores.historia.fragmentos.ParqueFragment;
 
 public class SeccionActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 

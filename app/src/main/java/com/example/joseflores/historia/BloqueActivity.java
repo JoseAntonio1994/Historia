@@ -23,6 +23,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.example.joseflores.historia.Constantes.Util;
 import com.example.joseflores.historia.modelos.Bloque;
 import com.example.joseflores.historia.modelos.Niveles;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -109,8 +110,8 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
                     public void onClick(View v) {
                         String clave = model.getUID();
                         Intent i = new Intent(BloqueActivity.this, TemaActivity.class);
-                        i.putExtra("clave", clave);
-                        i.putExtra("nombre", model.getNombreEpoca());
+                        i.putExtra(Util.CLAVE, clave);
+                        i.putExtra(Util.NOMBRE, model.getNombreEpoca());
                         startActivity(i);
                     }
                 });
@@ -124,6 +125,7 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
                         Toast.makeText(getApplicationContext(), "Proximamente", Toast.LENGTH_SHORT).show();
                     }
                 });
+
             }
 
             @NonNull
@@ -169,29 +171,29 @@ public class BloqueActivity extends AppCompatActivity implements NavigationView.
         } else if (id == R.id.bandera_mexico) {
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
-            i.putExtra("title", "Bandera de México");
-            i.putExtra("id", 0);
+            i.putExtra(Util.TITLE, Util.BANDERA_DE_MEXICO);
+            i.putExtra(Util.ID, 0);
             startActivity(i);
 
         } else if (id == R.id.parque_arqueologico) {
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
-            i.putExtra("title", "Parques Arqueologicos");
-            i.putExtra("id", 1);
+            i.putExtra(Util.TITLE, Util.PARQUES_ARQUEOLOGICOS);
+            i.putExtra(Util.ID, 1);
             startActivity(i);
 
         } else if (id == R.id.fechas) {
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
-            i.putExtra("title", "Fechas importantes");
-            i.putExtra("id", 2);
+            i.putExtra(Util.TITLE, Util.FECHAS_IMPORTANTES);
+            i.putExtra(Util.ID, 2);
             startActivity(i);
 
         } else if (id == R.id.himno) {
 
             Intent i = new Intent(BloqueActivity.this, SeccionActivity.class);
-            i.putExtra("title", "Hinmo Nacional");
-            i.putExtra("id", 3);
+            i.putExtra(Util.TITLE, Util.HIMNO_NACIONAL);
+            i.putExtra(Util.ID, 3);
             startActivity(i);
 
         } else if (id == R.id.salir) {

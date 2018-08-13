@@ -3,7 +3,7 @@
     android:id="@+id/fragment_fechas"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.joseflores.historia.FechasFragment">
+    tools:context="com.example.joseflores.historia.fragmentos.FechasFragment">
 
     <!-- TODO: Update blank fragment layout -->
 

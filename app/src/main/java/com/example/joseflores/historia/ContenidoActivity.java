@@ -27,7 +27,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class ContenidoActivity extends AppCompatActivity {
 
-    private ImageView imgContenido;
+
     private TextView ediContenido;
 
     private DatabaseReference mReference;
@@ -61,7 +61,6 @@ public class ContenidoActivity extends AppCompatActivity {
         mRecycler.setLayoutManager(layoutManager);
         mRecycler.setHasFixedSize(true);
 
-        imgContenido = (ImageView) findViewById(R.id.imagenContenido);
         ediContenido = (TextView) findViewById(R.id.editcontenido);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

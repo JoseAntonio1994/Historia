@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.example.joseflores.historia.Constantes.Util;
 import com.example.joseflores.historia.modelos.Niveles;
 import com.example.joseflores.historia.modelos.Tema;
 import com.firebase.ui.database.FirebaseListAdapter;
@@ -47,8 +48,8 @@ public class TemaActivity extends AppCompatActivity implements AdapterView.OnIte
         });
 
         if (getIntent().getExtras() != null){
-            uidEpoca = getIntent().getStringExtra("clave");
-            nomEpoca = getIntent().getStringExtra("nombre");
+            uidEpoca = getIntent().getStringExtra(Util.CLAVE);
+            nomEpoca = getIntent().getStringExtra(Util.NOMBRE);
         }
 
         this.setTitle(nomEpoca);
