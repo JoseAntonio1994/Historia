@@ -5,38 +5,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <android.support.design.widget.CoordinatorLayout
-        android:id="@+id/coo_bloques"
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/barra_bloques"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <android.support.design.widget.AppBarLayout
-            android:id="@+id/app_bloques"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <android.support.v7.widget.Toolbar
-                android:id="@+id/barra_bloques"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                android:background="?colorPrimary"
-                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-                app:titleTextColor="@android:color/white"
-                app:layout_scrollFlags="scroll|enterAlways"
-                app:title="@string/app_name"
-                />
-
-        </android.support.design.widget.AppBarLayout>
-
+        android:layout_height="?attr/actionBarSize"
+        android:background="?colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleTextColor="@android:color/white"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:title="@string/app_name"
+        />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/bloques_inicio"
-        android:layout_below="@id/app_bloques"
+        android:layout_below="@id/barra_bloques"
         android:scrollbars="vertical"
         android:clipToPadding="false"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
-    </android.support.design.widget.CoordinatorLayout>
 
 </RelativeLayout>
